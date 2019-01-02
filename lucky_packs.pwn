@@ -24,13 +24,11 @@ new PaketTimer[MAX_PLAYERS], PaketSure[MAX_PLAYERS], YEX[MAX_PLAYERS];
 
 public OnFilterScriptInit()
 {
-
 	return true;
 }
 
 public OnFilterScriptExit()
 {
-
 	return true;
 }
 
@@ -102,7 +100,7 @@ public PaketAcilimi(playerid)
 	}
 	else
 	{
-	    new str[10000], str2[500], odul_id = GetPVarInt(playerid, "sonodul");
+		new str[10000], str2[500], odul_id = GetPVarInt(playerid, "sonodul");
 		strcat(str, "{0027e7}===========================================================================\n");
 		strcat(str, "{0027e7}Küçük Şanslı Paket Açılımı\n");
 		strcat(str, "{0027e7}===========================================================================\n");
@@ -117,8 +115,8 @@ public PaketAcilimi(playerid)
 		strcat(str, "{00a882}(?) Eğer sahip olduğunuz sınırsız eşyalardan biri gelirse eşya yerine +10 TIFKredi hesabınıza eklenir.\n");
 		ShowPlayerDialog(playerid, 1236, DIALOG_STYLE_MSGBOX, "TurkIbiza™ Freeroam", str, "AL", "");
 		KillTimer(PaketTimer[playerid]);
-        PaketSure[playerid] = -1;
-        YEX[playerid] = -1;
+		PaketSure[playerid] = -1;
+		YEX[playerid] = -1;
 	}
 	return true;
 }
