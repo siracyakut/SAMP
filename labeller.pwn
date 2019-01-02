@@ -68,11 +68,11 @@ public OnPlayerDeath(playerid, killerid, reason)
 {
 	if(IsValidDynamic3DTextLabel(label[playerid]))
 	{
-	    new i = playerid, str2[500], str[2048];
-	    str2 = "{8A0000}- {FF0000}ÖLÜ {8A0000}-";
+		new i = playerid, str2[500], str[2048];
+		str2 = "{8A0000}- {FF0000}Ã–LÃœ {8A0000}-";
 		format(str, sizeof(str), "{%06x}%s ({B3B3B3}%d{%06x})\n{%06x}[%s{%06x}]", GetPlayerColor(i) >>> 8,
-                getName(i), i, GetPlayerColor(i) >>> 8, GetPlayerColor(i) >>> 8, str2, GetPlayerColor(i) >>> 8);
-        UpdateDynamic3DTextLabelText(label[i], -1, str);
+			getName(i), i, GetPlayerColor(i) >>> 8, GetPlayerColor(i) >>> 8, str2, GetPlayerColor(i) >>> 8);
+		UpdateDynamic3DTextLabelText(label[i], -1, str);
 	}
 	return true;
 }
@@ -92,7 +92,7 @@ public LabelTimer()
             GetPlayerHealth(i, can);
             GetPlayerArmour(i, zirh);
 
-			if(zirh > 0.0)
+	    if(zirh > 0.0)
             {
                 duzzirh = floatround(zirh);
 
