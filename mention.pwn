@@ -27,10 +27,10 @@ public OnPlayerText(playerid, text[])
 	            if(strfind(yazim[i], arastr) != -1)
 	            {
 	                if(i == x)
-	                    format(degisstr, sizeof(degisstr), "{2471A3}%s{FFFFFF}(%d)", getName(x), x);
-					else
-					    format(degisstr, sizeof(degisstr), "%s(%d)", getName(x), x);
-					GameTextForPlayer(x, "~n~~n~~n~~n~~n~~n~~n~~y~Sizden Bahsedildi", 2500, 5);
+				format(degisstr, sizeof(degisstr), "{2471A3}%s{FFFFFF}(%d)", getName(x), x);
+			else
+				format(degisstr, sizeof(degisstr), "%s(%d)", getName(x), x);
+			GameTextForPlayer(x, "~n~~n~~n~~n~~n~~n~~n~~y~Sizden Bahsedildi", 2500, 5);
 	                strreplace(yazim[i], arastr, degisstr);
 	                break;
 	            }
