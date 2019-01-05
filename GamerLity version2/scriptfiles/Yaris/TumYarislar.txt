@@ -1,0 +1,3 @@
+YarisSayisi=2
+Yaris_0=race1
+Yaris_1=race2
