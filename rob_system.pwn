@@ -65,6 +65,32 @@ public OnFilterScriptInit()
 	    SoygunYukle();
 	    DisableInteriorEnterExits();
 	}
+	
+	mysql_tquery(db, "CREATE TABLE IF NOT EXISTS `soygunlar` (\
+	`sid` int(3) NOT NULL,\
+	`soygunIsim` varchar(50) CHARACTER SET utf8 COLLATE utf8_turkish_ci NOT NULL,\
+	`gCpX` float NOT NULL,\
+	`gCpY` float NOT NULL,\
+	`gCpZ` float NOT NULL,\
+	`GirisPosX` float NOT NULL,\
+	`GirisPosY` float NOT NULL,\
+	`GirisPosZ` float NOT NULL,\
+	`GirisPosA` float NOT NULL,\
+	`cCpX` float NOT NULL,\
+	`cCpY` float NOT NULL,\
+	`cCpZ` float NOT NULL,\
+	`CikisPosX` float NOT NULL,\
+	`CikisPosY` float NOT NULL,\
+	`CikisPosZ` float NOT NULL,\
+	`CikisPosA` float NOT NULL,\
+	`sCpX` float NOT NULL,\
+	`sCpY` float NOT NULL,\
+	`sCpZ` float NOT NULL,\
+	`sInterior` int(3) NOT NULL,\
+	`sVW` int(3) NOT NULL,\
+	`sIcon` int(2) NOT NULL DEFAULT '0'\
+	) ENGINE=InnoDB DEFAULT CHARSET=utf8;");
+	
 	return true;
 }
 
