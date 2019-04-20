@@ -91,6 +91,8 @@ public OnFilterScriptInit()
 	`sIcon` int(2) NOT NULL DEFAULT '0'\
 	) ENGINE=InnoDB DEFAULT CHARSET=utf8;");
 	
+	mysql_tquery(db, "ALTER TABLE `soygunlar`\
+	ADD PRIMARY KEY (`sid`);");
 	return true;
 }
 
