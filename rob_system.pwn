@@ -57,11 +57,11 @@ public OnFilterScriptInit()
 	mysql_log(ALL);
 	if(mysql_errno(db) != 0)
 	{
-	    print("MySQL baðlantýsý baþarýsýz.");
+	    print("MySQL baÄŸlantÄ±sÄ± baÅŸarÄ±sÄ±z.");
 	}
 	else
 	{
-	    print("MySQL baðlantýsý baþarýlý.");
+	    print("MySQL baÄŸlantÄ±sÄ± baÅŸarÄ±lÄ±.");
 	    SoygunYukle();
 	    DisableInteriorEnterExits();
 	}
@@ -197,7 +197,7 @@ stock SoygunYukle()
 			sData[id][sLabel] = CreateDynamic3DTextLabel(label, -1, sData[id][sSoygunCPX], sData[id][sSoygunCPY], sData[id][sSoygunCPZ], 15.0, .worldid = sData[id][sVW], .interiorid = sData[id][sInterior]);
 			format(label, sizeof(label), "{00FF88}Mekan: {00FFEE}%s", sData[id][sIsim]);
 			CreateDynamic3DTextLabel(label, -1, sData[id][sGirisCPX], sData[id][sGirisCPY], sData[id][sGirisCPZ], 20.0);
-			CreateDynamic3DTextLabel("{00FF88}ÇIKIÞ", -1, sData[id][sCikisCPX], sData[id][sCikisCPY], sData[id][sCikisCPZ], 15.0, .worldid = sData[id][sVW], .interiorid = sData[id][sInterior]);
+			CreateDynamic3DTextLabel("{00FF88}Ã‡IKIÃž", -1, sData[id][sCikisCPX], sData[id][sCikisCPY], sData[id][sCikisCPZ], 15.0, .worldid = sData[id][sVW], .interiorid = sData[id][sInterior]);
 			sData[id][sCikisCP] = CreateDynamicCP(sData[id][sCikisCPX], sData[id][sCikisCPY], sData[id][sCikisCPZ], 1.0, .worldid = sData[id][sVW], .interiorid = sData[id][sInterior]);
 			sData[id][sGirisCP] = CreateDynamicCP(sData[id][sGirisCPX], sData[id][sGirisCPY], sData[id][sGirisCPZ], 1.0);
 			sData[id][sSoygunCP] = CreateDynamicCP(sData[id][sSoygunCPX], sData[id][sSoygunCPY], sData[id][sSoygunCPZ], 1.0, .worldid = sData[id][sVW], .interiorid = sData[id][sInterior]);
@@ -206,7 +206,7 @@ stock SoygunYukle()
 			yuklenen++;
 	    }
 	}
-	printf("Toplam %d soygun mekaný yüklendi.", yuklenen);
+	printf("Toplam %d soygun mekanÃ½ yÃ¼klendi.", yuklenen);
 	return true;
 }
 
