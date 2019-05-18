@@ -30,9 +30,9 @@ public OnPlayerPickUpPickup(playerid, pickupid)
 	{
 	    if(pickupid == pData[i][pPickup] && pData[i][pVar] == true)
 	    {
-	        GivePlayerMoney(playerid, pData[i][pDeger]);
+	        	GivePlayerMoney(playerid, pData[i][pDeger]);
 	        
-	    	pData[i][pVar] = false;
+	    		pData[i][pVar] = false;
 			DestroyPickup(pData[i][pPickup]);
 			Delete3DTextLabel(pData[i][pLabel]);
 			pData[i][pLabel] = Text3D: INVALID_3DTEXT_ID;
@@ -67,24 +67,24 @@ public Drop(playerid, mny, Float: x, Float: y, Float: z)
 {
 	if(mny >= 10)
 	{
-	    new bol = mny / 10;
-	    new str[64];
+		new bol = mny / 10;
+		new str[64];
 
-	    format(str, sizeof(str), "{00902c}( {00d742}$%d {00902c})", bol);
+		format(str, sizeof(str), "{00902c}( {00d742}$%d {00902c})", bol);
 
-	    for(new i; i < 10; i++)
-	    {
-	        new id = GetID();
-	    	new xboost = random(3) - random(3);
-	    	new yboost = random(3) - random(3);
+		for(new i; i < 10; i++)
+		{
+			new id = GetID();
+			new xboost = random(3) - random(3);
+			new yboost = random(3) - random(3);
 
-		    pData[id][pVar] = true;
-		    pData[id][pPickup] = CreatePickup(1212, 1, x + xboost, y + yboost, z - 0.5, 0);
-		    pData[id][pLabel] = Create3DTextLabel(str, -1, x + xboost, y + yboost, z - 0.5, 15.0, 0);
-		    pData[id][pDeger] = bol;
+			pData[id][pVar] = true;
+			pData[id][pPickup] = CreatePickup(1212, 1, x + xboost, y + yboost, z - 0.5, 0);
+			pData[id][pLabel] = Create3DTextLabel(str, -1, x + xboost, y + yboost, z - 0.5, 15.0, 0);
+			pData[id][pDeger] = bol;
 
 			pData[id][pTimer] = SetTimerEx("Delete", 30000, false, "d", id);
-	    }
+		}
 	}
 	return true;
 }
