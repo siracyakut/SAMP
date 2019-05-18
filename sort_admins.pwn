@@ -15,6 +15,27 @@ public OnFilterScriptExit()
 	return true;
 }
 
+// kısa yöntem
+CMD:admins(playerid, params[])
+{
+	new str[1000], j;
+	for(new level = 10; i != 0; i--)
+	{
+		foreach(new i: Player)
+		{
+		    if(IsPlayerAdmin(i) == level && IsPlayerConnected(i))
+		    {
+			format(str, sizeof(str), "%s%s - %d level\n", str, getName(i), IsPlayerAdmin(i));
+			j++;
+		    }
+		}
+	}
+	if(j == 0) return SendClientMessage(playerid, -1, "Online admin yok!");
+	ShowPlayerDialog(playerid, 0, DIALOG_STYLE_MSGBOX, "Adminler", str, "Kapat", "");
+	return true;
+}
+
+// uzun yöntem
 CMD:admins(playerid, params[])
 {
 	new str[1000], adminler[20], idler[20], j;
@@ -33,6 +54,7 @@ CMD:admins(playerid, params[])
 	{
 	    format(str, sizeof(str), "%s%s - %d level\n", str, getName(idler[i]), adminler[i]);
 	}
+	ShowPlayerDialog(playerid, 0, DIALOG_STYLE_MSGBOX, "Adminler", str, "Kapat", "");
 	return true;
 }
 
