@@ -51,6 +51,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 	        SetTimerEx("Paket", GetPVarInt(playerid, "interval"), false, "d", playerid);
 	        rx[playerid] = 0;
 	    }
+	    return true;
 	}
 	return false;
 }
