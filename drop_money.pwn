@@ -92,11 +92,11 @@ public Drop(playerid, mny, Float: x, Float: y, Float: z)
 forward Delete(id);
 public Delete(id)
 {
-  pData[id][pVar] = false;
-  DestroyPickup(pData[id][pPickup]);
-  Delete3DTextLabel(pData[id][pLabel]);
-  pData[id][pLabel] = Text3D: INVALID_3DTEXT_ID;
-  pData[id][pDeger] = 0;
-  KillTimer(pData[id][pTimer]);
-  return true;
+	pData[id][pVar] = false;
+	DestroyPickup(pData[id][pPickup]);
+	Delete3DTextLabel(pData[id][pLabel]);
+	pData[id][pLabel] = Text3D: INVALID_3DTEXT_ID;
+	pData[id][pDeger] = 0;
+	KillTimer(pData[id][pTimer]);
+	return true;
 }
