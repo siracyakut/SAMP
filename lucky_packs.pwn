@@ -1,7 +1,5 @@
-#include <a_samp>
-#include <izcmd>
-
-#pragma dynamic 1000000
+#include "a_samp"
+#include "zcmd"
 
 new oduller[][] =
 {
@@ -20,109 +18,93 @@ new oduller[][] =
 	{"1 Unique Hunter Spawner"},
 	{"1 Unique Hydra Spawner"}
 };
-new PaketTimer[MAX_PLAYERS], PaketSure[MAX_PLAYERS], YEX[MAX_PLAYERS];
-
-public OnFilterScriptInit()
-{
-	return true;
-}
-
-public OnFilterScriptExit()
-{
-	return true;
-}
-
-public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
-{
-	switch(dialogid)
-	{
-	    case 1234:
-	    {
-	        if(!response) return true;
-	        
-	        KillTimer(PaketTimer[playerid]);
-	        PaketSure[playerid] = randomEx(28, 45);
-	        YEX[playerid] = 0;
-	        PaketTimer[playerid] = SetTimerEx("PaketAcilimi", 100, true, "d", playerid);
-	    }
-	    case 1236:
-	    {
-	        if(!response) return true;
-	        
-	        new str[128], odul_id = GetPVarInt(playerid, "sonodul");
-	        format(str, sizeof(str), "{008c23}<{c0c0c0}(?){008c23}> Kutudan '{c0c0c0}%s{008c23}' kazandınız!", oduller[odul_id][0]);
-	        SendClientMessage(playerid, -1, str);
-	    }
-	}
-	return true;
-}
+new rx[MAX_PLAYERS];
 
 CMD:paket(playerid, params[])
 {
-	new str[10000], str2[500];
+	new str[1024];
 	strcat(str, "{0027e7}===========================================================================\n");
 	strcat(str, "{0027e7}Küçük Şanslı Paket Açılımı\n");
 	strcat(str, "{0027e7}===========================================================================\n");
 	for(new i; i < sizeof(oduller); i++)
 	{
-	    format(str2, sizeof(str2), "{0027e7}> {aeb4b3}??????\n");
-	    strcat(str, str2);
+	    format(str, sizeof(str), "%s{0027e7}> {aeb4b3}??????\n", str);
 	}
 	strcat(str, "{0027e7}===========================================================================\n");
 	strcat(str, "{00a882}(?) Eğer sahip olduğunuz süreli eşyalardan biri gelirse mevcut eşyanın süresi otomatik uzatılır.\n");
 	strcat(str, "{00a882}(?) Eğer sahip olduğunuz sınırsız eşyalardan biri gelirse eşya yerine +10 TIFKredi hesabınıza eklenir.\n");
-	ShowPlayerDialog(playerid, 1234, DIALOG_STYLE_MSGBOX, "TurkIbiza™ Freeroam", str, "AÇ", "İptal");
+	ShowPlayerDialog(playerid, 12, DIALOG_STYLE_MSGBOX, "TurkIbiza™ Freeroam", str, "AÇ", "İptal");
 	return true;
 }
 
-forward PaketAcilimi(playerid);
-public PaketAcilimi(playerid)
+public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
-	if(PaketSure[playerid] != 0)
+	if(dialogid == 12)
 	{
-		new str[10000], str2[500];
-		strcat(str, "{0027e7}===========================================================================\n");
+	    if(response)
+	    {
+	        new rastgele = randomEx(25, 45);
+	        SetPVarInt(playerid, "tick", rastgele);
+	        SetPVarInt(playerid, "current", 0);
+	        
+	        SetPVarInt(playerid, "interval", 1);
+	        SetTimerEx("Paket", GetPVarInt(playerid, "interval"), false, "d", playerid);
+	        rx[playerid] = 0;
+	    }
+	}
+	return false;
+}
+
+forward Paket(playerid);
+public Paket(playerid)
+{
+	new str[1024], current = GetPVarInt(playerid, "current");
+	
+	strcat(str, "{0027e7}===========================================================================\n");
+	strcat(str, "{0027e7}Küçük Şanslı Paket Açılımı\n");
+	strcat(str, "{0027e7}===========================================================================\n");
+	for(new i; i < sizeof(oduller); i++)
+	{
+	    if(i == current) format(str, sizeof(str), "%s{0027e7}( %s )\n", str, oduller[i][0]);
+	    else format(str, sizeof(str), "%s{0027e7}> {aeb4b3}%s\n", str, oduller[i][0]);
+	}
+	strcat(str, "{0027e7}===========================================================================\n");
+	strcat(str, "{00a882}(?) Eğer sahip olduğunuz süreli eşyalardan biri gelirse mevcut eşyanın süresi otomatik uzatılır.\n");
+	strcat(str, "{00a882}(?) Eğer sahip olduğunuz sınırsız eşyalardan biri gelirse eşya yerine +10 TIFKredi hesabınıza eklenir.\n");
+
+	ShowPlayerDialog(playerid, 13, DIALOG_STYLE_MSGBOX, "TurkIbiza™ Freeroam", str, "Bekleyiniz", "");
+
+	SetPVarInt(playerid, "current", GetPVarInt(playerid, "current") + 1);
+	if(GetPVarInt(playerid, "current") == sizeof(oduller)) SetPVarInt(playerid, "current", 0);
+	rx[playerid]++;
+	
+	if(rx[playerid] == GetPVarInt(playerid, "tick"))
+	{
+	    str[0] = EOS;
+    	strcat(str, "{0027e7}===========================================================================\n");
 		strcat(str, "{0027e7}Küçük Şanslı Paket Açılımı\n");
 		strcat(str, "{0027e7}===========================================================================\n");
 		for(new i; i < sizeof(oduller); i++)
 		{
-		    if(YEX[playerid] == i) format(str2, sizeof(str2), "{0027e7}( %s )\n", oduller[i][0]), SetPVarInt(playerid, "sonodul", i);
-		    else format(str2, sizeof(str2), "{0027e7}> {aeb4b3}%s\n", oduller[i][0]);
-		    strcat(str, str2);
-		}
-		YEX[playerid]++;
-		if(YEX[playerid] >= sizeof(oduller)) YEX[playerid] = 0;
-		strcat(str, "{0027e7}===========================================================================\n");
-		strcat(str, "{00a882}(?) Eğer sahip olduğunuz süreli eşyalardan biri gelirse mevcut eşyanın süresi otomatik uzatılır.\n");
-		strcat(str, "{00a882}(?) Eğer sahip olduğunuz sınırsız eşyalardan biri gelirse eşya yerine +10 TIFKredi hesabınıza eklenir.\n");
-		ShowPlayerDialog(playerid, 1235, DIALOG_STYLE_MSGBOX, "TurkIbiza™ Freeroam", str, "Bekleyiniz", "");
-		PaketSure[playerid]--;
-	}
-	else
-	{
-		new str[10000], str2[500], odul_id = GetPVarInt(playerid, "sonodul");
-		strcat(str, "{0027e7}===========================================================================\n");
-		strcat(str, "{0027e7}Küçük Şanslı Paket Açılımı\n");
-		strcat(str, "{0027e7}===========================================================================\n");
-		for(new i; i < sizeof(oduller); i++)
-		{
-		    if(i == odul_id) format(str2, sizeof(str2), "{2d7e39}>>>> ( %s ) <<<<\n", oduller[i][0]);
-		    else format(str2, sizeof(str2), "{0027e7}> {aeb4b3}%s\n", oduller[i][0]);
-		    strcat(str, str2);
+		    if(i == current) format(str, sizeof(str), "%s{2d7e39}>>>> ( %s ) <<<<\n", str, oduller[i][0]);
+		    else format(str, sizeof(str), "%s{0027e7}> {aeb4b3}%s\n", str, oduller[i][0]);
 		}
 		strcat(str, "{0027e7}===========================================================================\n");
 		strcat(str, "{00a882}(?) Eğer sahip olduğunuz süreli eşyalardan biri gelirse mevcut eşyanın süresi otomatik uzatılır.\n");
 		strcat(str, "{00a882}(?) Eğer sahip olduğunuz sınırsız eşyalardan biri gelirse eşya yerine +10 TIFKredi hesabınıza eklenir.\n");
-		ShowPlayerDialog(playerid, 1236, DIALOG_STYLE_MSGBOX, "TurkIbiza™ Freeroam", str, "AL", "");
-		KillTimer(PaketTimer[playerid]);
-		PaketSure[playerid] = -1;
-		YEX[playerid] = -1;
+		ShowPlayerDialog(playerid, 13, DIALOG_STYLE_MSGBOX, "TurkIbiza™ Freeroam", str, "AL", "");
+		
+        format(str, sizeof(str), "{008c23}<{c0c0c0}(?){008c23}> Kutudan '{c0c0c0}%s{008c23}' kazandınız!", oduller[current][0]);
+        SendClientMessage(playerid, -1, str);
+		return true;
 	}
+	
+	SetPVarInt(playerid, "interval", GetPVarInt(playerid, "interval") + 13);
+	SetTimerEx("Paket", GetPVarInt(playerid, "interval"), false, "d", playerid);
 	return true;
 }
 
 stock randomEx(min, max)
 {
-	new rand = random(max - min + 1) + min;
-	return rand;
+	return random(max - min + 1) + min;
 }
