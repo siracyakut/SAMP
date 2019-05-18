@@ -80,8 +80,8 @@ public Paket(playerid)
 	
 	if(rx[playerid] == GetPVarInt(playerid, "tick"))
 	{
-	    str[0] = EOS;
-    	strcat(str, "{0027e7}===========================================================================\n");
+	    	str[0] = EOS;
+    		strcat(str, "{0027e7}===========================================================================\n");
 		strcat(str, "{0027e7}Küçük Şanslı Paket Açılımı\n");
 		strcat(str, "{0027e7}===========================================================================\n");
 		for(new i; i < sizeof(oduller); i++)
@@ -94,8 +94,8 @@ public Paket(playerid)
 		strcat(str, "{00a882}(?) Eğer sahip olduğunuz sınırsız eşyalardan biri gelirse eşya yerine +10 TIFKredi hesabınıza eklenir.\n");
 		ShowPlayerDialog(playerid, 13, DIALOG_STYLE_MSGBOX, "TurkIbiza™ Freeroam", str, "AL", "");
 		
-        format(str, sizeof(str), "{008c23}<{c0c0c0}(?){008c23}> Kutudan '{c0c0c0}%s{008c23}' kazandınız!", oduller[current][0]);
-        SendClientMessage(playerid, -1, str);
+        	format(str, sizeof(str), "{008c23}<{c0c0c0}(?){008c23}> Kutudan '{c0c0c0}%s{008c23}' kazandınız!", oduller[current][0]);
+        	SendClientMessage(playerid, -1, str);
 		return true;
 	}
 	
