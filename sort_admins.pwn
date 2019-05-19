@@ -19,7 +19,7 @@ public OnFilterScriptExit()
 CMD:admins(playerid, params[])
 {
 	new str[1000], j;
-	for(new level = 10; i != 0; i--)
+	for(new level = 10; level != 0; level--)
 	{
 		foreach(new i: Player)
 		{
