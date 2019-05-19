@@ -23,9 +23,9 @@ CMD:admins(playerid, params[])
 	{
 		foreach(new i: Player)
 		{
-		    if(IsPlayerAdmin(i) == level && IsPlayerConnected(i))
+		    if(adminLevel[i] == level && IsPlayerConnected(i))
 		    {
-			format(str, sizeof(str), "%s%s - %d level\n", str, getName(i), IsPlayerAdmin(i));
+			format(str, sizeof(str), "%s%s - %d level\n", str, getName(i), adminLevel[i]);
 			j++;
 		    }
 		}
@@ -41,7 +41,7 @@ CMD:admins(playerid, params[])
 	new str[1000], adminler[20], idler[20], j;
 	foreach(new i: Player)
 	{
-	    if(IsPlayerAdmin(i) && IsPlayerConnected(i))
+	    if(adminLevel[i] > 0 && IsPlayerConnected(i))
 	    {
 	        adminler[j] = adminLevel[i];
 	        idler[j] = i;
