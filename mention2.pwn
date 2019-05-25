@@ -8,12 +8,12 @@ public OnPlayerText(playerid, text[])
 	
 	foreach(new i: Player)
 	{
-	    if(IsPlayerNPC(i)) continue;
-	    
+		if(IsPlayerNPC(i)) continue;
+
 		if(strfind(text, "@") != -1)
-		    Mention(i, str);
+			Mention(i, str);
 		else
-	    	SendClientMessage(i, -1, str);
+			SendClientMessage(i, -1, str);
 	}
 	return false;
 }
