@@ -74,12 +74,13 @@ new TDRenk[] =
 
 public OnFilterScriptInit()
 {
-	SetTimer("GGBaslat", 600000, true);
+	SetGVarInt("GG_Genel_Timer", _:(SetTimer("GGBaslat", 600000, true))); // 10 dakika
 	return true;
 }
 
 public OnFilterScriptExit()
 {
+	KillTimer(_:GetGVarInt("GG_Genel_Timer"));
 	return true;
 }
 
