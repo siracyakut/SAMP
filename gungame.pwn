@@ -148,7 +148,9 @@ CMD:ggcik(playerid)
 
 CMD:ggbaslat(playerid)
 {
-    GGBaslat();
+	if(!IsPlayerAdmin(playerid)) return SCM(playerid, -1, "Bu komutu kullanabilmek için RCON Admin olmalısınız!");
+	if(GetGVarInt("GG") == 1 || GetGVarInt("GG") == 2) return SCM(playerid, -1, "Gungame zaten başlamış!");
+    	GGBaslat();
 	return true;
 }
 
@@ -158,6 +160,10 @@ stock GunGame_Join(playerid, bool: first = false)
 	SetPlayerPos(playerid, GGPos[rand][0], GGPos[rand][1], GGPos[rand][2]);
 	SetPlayerFacingAngle(playerid, GGPos[rand][3]);
 	SetCameraBehindPlayer(playerid);
+	
+	SetPlayerVirtualWorld(playerid, 33);
+	SetPlayerHealth(playerid, 100.0);
+	SetPlayerArmour(playerid, 100.0);
 	
 	if(first)
 	{
@@ -195,11 +201,11 @@ stock GunGame_Stop(winnerid)
 		new n[MAX_PLAYER_NAME], str[156];
 		GetPlayerName(winnerid, n, MAX_PLAYER_NAME);
 		new slot, oyuncular[MAX_PLAYERS] = {-1, ...};
-	    foreach(new playerid: GGL)
-	    {
-	        oyuncular[slot] = playerid;
-	        slot++;
-	    }
+		foreach(new playerid: GGL)
+		{
+			oyuncular[slot] = playerid;
+			slot++;
+		}
 		for(new i; i < sizeof(oyuncular); i++)
 		{
 		    if(oyuncular[i] == -1) continue;
@@ -214,15 +220,15 @@ stock GunGame_Stop(winnerid)
 	}
 	else
 	{
-	    new slot, oyuncular[MAX_PLAYERS] = {-1, ...};
-	    foreach(new playerid: GGL)
-	    {
-	        oyuncular[slot] = playerid;
-	        slot++;
-	    }
+		new slot, oyuncular[MAX_PLAYERS] = {-1, ...};
+		foreach(new playerid: GGL)
+		{
+			oyuncular[slot] = playerid;
+			slot++;
+		}
 		for(new i; i < sizeof(oyuncular); i++)
 		{
-		    if(oyuncular[i] == -1) continue;
+		    	if(oyuncular[i] == -1) continue;
 		    
 			SpawnPlayer(oyuncular[i]);
 			GunGame_Leave(oyuncular[i]);
@@ -700,14 +706,14 @@ function LevelUp(playerid)
 	static killerid;
 	killerid = playerid;
 	SetPVarInt(killerid, "GGKill", 0);
-    SetPVarInt(killerid, "GGLevel", GetPVarInt(killerid, "GGLevel") + 1);
-    if(GetPVarInt(killerid, "GGLevel") == sizeof(GGWeapon) - 1)
-    {
-        return GunGame_Stop(killerid);
-    }
-    GunGame_CheckWeapon(killerid);
-    GameTextForPlayer(killerid, "~p~LEVEL UP!", 1000, 6);
-    GunGame_CheckTD(killerid);
+	SetPVarInt(killerid, "GGLevel", GetPVarInt(killerid, "GGLevel") + 1);
+	if(GetPVarInt(killerid, "GGLevel") == sizeof(GGWeapon) - 1)
+	{
+		return GunGame_Stop(killerid);
+	}
+	GunGame_CheckWeapon(killerid);
+	GameTextForPlayer(killerid, "~p~LEVEL UP!", 1000, 6);
+	GunGame_CheckTD(killerid);
 	return true;
 }
 
