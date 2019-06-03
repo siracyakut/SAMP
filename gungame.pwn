@@ -155,6 +155,79 @@ CMD:ggbaslat(playerid)
 	return true;
 }
 
+function LevelUp(playerid)
+{
+	static killerid;
+	killerid = playerid;
+	SetPVarInt(killerid, "GGKill", 0);
+	SetPVarInt(killerid, "GGLevel", GetPVarInt(killerid, "GGLevel") + 1);
+	if(GetPVarInt(killerid, "GGLevel") == sizeof(GGWeapon) - 1)
+	{
+		return GunGame_Stop(killerid);
+	}
+	GunGame_CheckWeapon(killerid);
+	GameTextForPlayer(killerid, "~p~LEVEL UP!", 1000, 6);
+	GunGame_CheckTD(killerid);
+	return true;
+}
+
+function GunGame_CountDown()
+{
+	new
+	    	str[156],
+	    	colors[][] = { "r", "g", "b", "w", "p" },
+		cnt = GetGVarInt("GGCnt")
+	;
+	    	
+	format(str, sizeof(str), "~%s~%d", colors[random(sizeof(colors))][0], cnt);
+	foreach(new playerid: GGL) GameTextForPlayer(playerid, str, 1000, 6);
+	SetGVarInt("GGCnt", cnt - 1);
+	
+	if((GetGVarInt("GGCnt")) <= -1)
+	{
+	    KillTimer(_:GetGVarInt("GGTimer"));
+	    foreach(new playerid: GGL)
+	    {
+	        TogglePlayerControllable(playerid, true);
+	        GunGame_CheckWeapon(playerid);
+	        GunGame_TD(playerid, 1);
+	        GunGame_CheckTD(playerid);
+	        GameTextForPlayer(playerid, "~r~~h~~h~GO!", 1000, 6);
+	    }
+	}
+	return true;
+}
+
+function GGBaslat()
+{
+	if(GetGVarInt("GG")) return true;
+
+	SetGVarInt("GG", 1); // 1 = katılım, 2 = oyun, 0 = kapalı
+	Iter_Clear(GGL);
+	
+	SendClientMessageToAll(-1, "GunGame başladı! Katılmak için \"/gg\" yazın!");
+	SetTimer("GGReklam", 15000, false);
+	SetTimer("GGBitir", 30000, false);
+	return true;
+}
+
+function GGReklam() return SendClientMessageToAll(-1, "GunGame başladı! Katılmak için \"/gg\" yazın!");
+
+function GGBitir()
+{
+	if(Iter_Count(GGL) <= 1)
+	{
+		return GunGame_Stop(-1);
+	}
+	
+	SetGVarInt("GG", 2);
+	SendClientMessageToAll(-1, "GunGame'ye katılım sonlandı! Oyun birazdan başlayacak.");
+	SetGVarInt("GGCnt", 3);
+	
+	SetGVarInt("GGTimer", _:(SetTimer("GunGame_CountDown", 1000, true)));
+	return true;
+}
+
 stock GunGame_Join(playerid, bool: first = false)
 {
 	new rand = random(sizeof(GGPos));
@@ -209,7 +282,7 @@ stock GunGame_Stop(winnerid)
 		}
 		for(new i; i < sizeof(oyuncular); i++)
 		{
-		    if(oyuncular[i] == -1) continue;
+		    	if(oyuncular[i] == -1) continue;
 
 			SpawnPlayer(oyuncular[i]);
 			GunGame_Leave(oyuncular[i]);
@@ -237,6 +310,58 @@ stock GunGame_Stop(winnerid)
 		SendClientMessageToAll(-1, "GunGame iptal edildi. (Yetersiz katılım)");
 		Iter_Clear(GGL);
 		SetGVarInt("GG", 0);
+	}
+	return true;
+}
+
+stock TD_Remove(playerid)
+{
+	for(new i; i < 36; i++)
+	{
+		TextDrawDestroy(GunGameTD[playerid][i]);
+		GunGameTD[playerid][i] = Text: INVALID_TEXT_DRAW;
+	}
+	return true;
+}
+
+stock GunGame_CheckTD(playerid)
+{
+	new Float: s1 = floatdiv(3, 32);
+	new Float: s2 = floatdiv(GetPVarInt(playerid, "GGKill"), s1);
+	
+	for(new i; i < 32; i++)
+	{
+	    if(i < s2)
+	    {
+	        TextDrawColor(GunGameTD[playerid][i + 1], TDRenk[i]);
+	    }
+	    else
+	    {
+	        TextDrawColor(GunGameTD[playerid][i + 1], 0x66666644);
+	    }
+	    TextDrawShowForPlayer(playerid, GunGameTD[playerid][i + 1]);
+	}
+	
+	TextDrawSetPreviewModel(GunGameTD[playerid][33], GGWeapon[GetPVarInt(playerid, "GGLevel")][2]);
+	TextDrawSetPreviewModel(GunGameTD[playerid][34], GGWeapon[GetPVarInt(playerid, "GGLevel") + 1][2]);
+	TextDrawShowForPlayer(playerid, GunGameTD[playerid][33]);
+	TextDrawShowForPlayer(playerid, GunGameTD[playerid][34]);
+	
+	static str[156];
+	format(str, sizeof(str), "~r~~h~~h~Level: ~w~~h~~h~%d ~r~~h~~h~- Kill: ~w~~h~~h~%d", GetPVarInt(playerid, "GGLevel") + 1, GetPVarInt(playerid, "GGKill"));
+	TextDrawSetString(GunGameTD[playerid][35], str);
+	return true;
+}
+
+stock GunGame_TD(playerid, durum)
+{
+	if(durum == 0)
+	{
+	    for(new i; i < 36; i++) TextDrawHideForPlayer(playerid, GunGameTD[playerid][i]);
+	}
+	else if(durum == 1)
+	{
+	    for(new i; i < 36; i++) TextDrawShowForPlayer(playerid, GunGameTD[playerid][i]);
 	}
 	return true;
 }
@@ -647,130 +772,5 @@ stock TD_Add(playerid)
 	TextDrawFont(GunGameTD[playerid][35], 3);
 	TextDrawSetProportional(GunGameTD[playerid][35], 1);
 	TextDrawSetShadow(GunGameTD[playerid][35], 0);
-	return true;
-}
-
-stock TD_Remove(playerid)
-{
-	for(new i; i < 36; i++)
-	{
-		TextDrawDestroy(GunGameTD[playerid][i]);
-		GunGameTD[playerid][i] = Text: INVALID_TEXT_DRAW;
-	}
-	return true;
-}
-
-stock GunGame_CheckTD(playerid)
-{
-	new Float: s1 = floatdiv(3, 32);
-	new Float: s2 = floatdiv(GetPVarInt(playerid, "GGKill"), s1);
-	
-	for(new i; i < 32; i++)
-	{
-	    if(i < s2)
-	    {
-	        TextDrawColor(GunGameTD[playerid][i + 1], TDRenk[i]);
-	    }
-	    else
-	    {
-	        TextDrawColor(GunGameTD[playerid][i + 1], 0x66666644);
-	    }
-	    TextDrawShowForPlayer(playerid, GunGameTD[playerid][i + 1]);
-	}
-	
-	TextDrawSetPreviewModel(GunGameTD[playerid][33], GGWeapon[GetPVarInt(playerid, "GGLevel")][2]);
-	TextDrawSetPreviewModel(GunGameTD[playerid][34], GGWeapon[GetPVarInt(playerid, "GGLevel") + 1][2]);
-	TextDrawShowForPlayer(playerid, GunGameTD[playerid][33]);
-	TextDrawShowForPlayer(playerid, GunGameTD[playerid][34]);
-	
-	static str[156];
-	format(str, sizeof(str), "~r~~h~~h~Level: ~w~~h~~h~%d ~r~~h~~h~- Kill: ~w~~h~~h~%d", GetPVarInt(playerid, "GGLevel") + 1, GetPVarInt(playerid, "GGKill"));
-	TextDrawSetString(GunGameTD[playerid][35], str);
-	return true;
-}
-
-stock GunGame_TD(playerid, durum)
-{
-	if(durum == 0)
-	{
-	    for(new i; i < 36; i++) TextDrawHideForPlayer(playerid, GunGameTD[playerid][i]);
-	}
-	else if(durum == 1)
-	{
-	    for(new i; i < 36; i++) TextDrawShowForPlayer(playerid, GunGameTD[playerid][i]);
-	}
-	return true;
-}
-
-function LevelUp(playerid)
-{
-	static killerid;
-	killerid = playerid;
-	SetPVarInt(killerid, "GGKill", 0);
-	SetPVarInt(killerid, "GGLevel", GetPVarInt(killerid, "GGLevel") + 1);
-	if(GetPVarInt(killerid, "GGLevel") == sizeof(GGWeapon) - 1)
-	{
-		return GunGame_Stop(killerid);
-	}
-	GunGame_CheckWeapon(killerid);
-	GameTextForPlayer(killerid, "~p~LEVEL UP!", 1000, 6);
-	GunGame_CheckTD(killerid);
-	return true;
-}
-
-function GunGame_CountDown()
-{
-	new
-	    str[156],
-	    colors[][] = { "r", "g", "b", "w", "p" },
-		cnt = GetGVarInt("GGCnt")
-	;
-	    	
-	format(str, sizeof(str), "~%s~%d", colors[random(sizeof(colors))][0], cnt);
-	foreach(new playerid: GGL) GameTextForPlayer(playerid, str, 1000, 6);
-	SetGVarInt("GGCnt", cnt - 1);
-	
-	if((GetGVarInt("GGCnt")) <= -1)
-	{
-	    KillTimer(_:GetGVarInt("GGTimer"));
-	    foreach(new playerid: GGL)
-	    {
-	        TogglePlayerControllable(playerid, true);
-	        GunGame_CheckWeapon(playerid);
-	        GunGame_TD(playerid, 1);
-	        GunGame_CheckTD(playerid);
-	        GameTextForPlayer(playerid, "~r~~h~~h~GO!", 1000, 6);
-	    }
-	}
-	return true;
-}
-
-function GGBaslat()
-{
-	if(GetGVarInt("GG")) return true;
-
-	SetGVarInt("GG", 1); // 1 = katılım, 2 = oyun, 0 = kapalı
-	Iter_Clear(GGL);
-	
-	SendClientMessageToAll(-1, "GunGame başladı! Katılmak için \"/gg\" yazın!");
-	SetTimer("GGReklam", 15000, false);
-	SetTimer("GGBitir", 30000, false);
-	return true;
-}
-
-function GGReklam() return SendClientMessageToAll(-1, "GunGame başladı! Katılmak için \"/gg\" yazın!");
-
-function GGBitir()
-{
-	if(Iter_Count(GGL) <= 1)
-	{
-		return GunGame_Stop(-1);
-	}
-	
-	SetGVarInt("GG", 2);
-	SendClientMessageToAll(-1, "GunGame'ye katılım sonlandı! Oyun birazdan başlayacak.");
-	SetGVarInt("GGCnt", 3);
-	
-	SetGVarInt("GGTimer", _:(SetTimer("GunGame_CountDown", 1000, true)));
 	return true;
 }
