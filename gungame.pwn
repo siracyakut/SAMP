@@ -284,7 +284,6 @@ stock GunGame_Stop(winnerid)
 		{
 		    	if(oyuncular[i] == -1) continue;
 
-			SpawnPlayer(oyuncular[i]);
 			GunGame_Leave(oyuncular[i]);
 		}
 		format(str, sizeof(str), "GunGame'i %s kazandı. Tebrikler!", n);
@@ -304,7 +303,6 @@ stock GunGame_Stop(winnerid)
 		{
 		    	if(oyuncular[i] == -1) continue;
 		    
-			SpawnPlayer(oyuncular[i]);
 			GunGame_Leave(oyuncular[i]);
 		}
 		SendClientMessageToAll(-1, "GunGame iptal edildi. (Yetersiz katılım)");
