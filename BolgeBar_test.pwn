@@ -602,18 +602,37 @@ CMD:arttir(playerid, params[])
 	{
 	    TextDrawShowForPlayer(playerid, BolgeBar[playerid][i]);
 	}
-	
+
 	KillTimer(DurumTimer[playerid]);
-	DurumTimer[playerid] = SetTimerEx("HadiBakim", 1000, true, "d", playerid);
+	DurumTimer[playerid] = SetTimerEx("art", 250, true, "d", playerid);
 	return true;
 }
 
-forward HadiBakim(playerid);
-public HadiBakim(playerid)
+stock HadiBakim(playerid)
 {
-	if(Durum[playerid] == 50) return KillTimer(DurumTimer[playerid]);
-	TextDrawColor(BolgeBar[playerid][Durum[playerid] + 2], NEWEXPRenkleri[Durum[playerid]]);
-	TextDrawShowForPlayer(playerid, BolgeBar[playerid][Durum[playerid] + 2]);
+	new Float: s1 = floatdiv(90, 50);
+	new Float: s2 = floatdiv(Durum[playerid], s1);
+	
+	for(new i; i < 50; i++)
+	{
+	    if(i < s2)
+	    {
+			TextDrawColor(BolgeBar[playerid][i + 2], NEWEXPRenkleri[i]);
+	    }
+	    else
+	    {
+	        TextDrawColor(BolgeBar[playerid][i + 2], -1);
+	    }
+	    TextDrawShowForPlayer(playerid, BolgeBar[playerid][i + 2]);
+	}
+	return true;
+}
+
+forward art(playerid);
+public art(playerid)
+{
+	if(Durum[playerid] == 100) return KillTimer(DurumTimer[playerid]);
 	Durum[playerid]++;
+	HadiBakim(playerid);
 	return true;
 }
