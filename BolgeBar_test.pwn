@@ -4,7 +4,7 @@
 new Text: BolgeBar[MAX_PLAYERS][50];
 new Durum[MAX_PLAYERS];
 new DurumTimer[MAX_PLAYERS];
-new	NEWEXPRenkleri[] =
+new NEWEXPRenkleri[] =
 {
 	0xFF0000FF, 0xFE0800FF, 0xFE1100FF, 0xFE1900FF, 0xFE2200FF,
 	0xFE2B00FF, 0xFE3300FF, 0xFD3C00FF, 0xFD4400FF, 0xFD4D00FF, 0xFD5500FF,
@@ -608,16 +608,25 @@ CMD:arttir(playerid, params[])
 	return true;
 }
 
-stock HadiBakim(playerid)
+forward art(playerid);
+public art(playerid)
 {
-	new Float: s1 = floatdiv(90, 50);
+	if(Durum[playerid] == 100) return KillTimer(DurumTimer[playerid]);
+	Durum[playerid]++;
+	TD_Guncelle(playerid);
+	return true;
+}
+
+stock TD_Guncelle(playerid)
+{
+	new Float: s1 = floatdiv(100, 50);
 	new Float: s2 = floatdiv(Durum[playerid], s1);
 	
 	for(new i; i < 50; i++)
 	{
 	    if(i < s2)
 	    {
-			TextDrawColor(BolgeBar[playerid][i + 2], NEWEXPRenkleri[i]);
+		TextDrawColor(BolgeBar[playerid][i + 2], NEWEXPRenkleri[i]);
 	    }
 	    else
 	    {
@@ -625,14 +634,5 @@ stock HadiBakim(playerid)
 	    }
 	    TextDrawShowForPlayer(playerid, BolgeBar[playerid][i + 2]);
 	}
-	return true;
-}
-
-forward art(playerid);
-public art(playerid)
-{
-	if(Durum[playerid] == 100) return KillTimer(DurumTimer[playerid]);
-	Durum[playerid]++;
-	HadiBakim(playerid);
 	return true;
 }
