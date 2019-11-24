@@ -84,7 +84,7 @@ new coordInfo[MAX_PLAYERS][Coordinates];
 public OnFilterScriptInit()
 {
 	print("\n--------------------------------------");
-	print(" CamEditor by Drebin");
+	print(" CamEditor by Drebin");asdf
 	print("--------------------------------------\n");
 	return 1;
 }
