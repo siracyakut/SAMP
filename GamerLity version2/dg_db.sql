@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.2
+-- version 4.9.2
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 01 Eyl 2018, 21:09:29
--- Sunucu sürümü: 10.1.34-MariaDB
--- PHP Sürümü: 7.2.7
+-- Üretim Zamanı: 01 Şub 2020, 01:28:43
+-- Sunucu sürümü: 10.4.11-MariaDB
+-- PHP Sürümü: 7.4.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Veritabanı: `dg_db`
+-- Veritabanı: `dg`
 --
 
 -- --------------------------------------------------------
@@ -84,7 +84,7 @@ CREATE TABLE `banlog` (
   `ip` varchar(16) COLLATE utf8_turkish_ci NOT NULL,
   `player` varchar(25) COLLATE utf8_turkish_ci NOT NULL,
   `times` varchar(50) COLLATE utf8_turkish_ci NOT NULL,
-  `aktif` int(50) NOT NULL DEFAULT '1',
+  `aktif` int(50) NOT NULL DEFAULT 1,
   `sebep` varchar(500) COLLATE utf8_turkish_ci NOT NULL,
   `admin` varchar(500) COLLATE utf8_turkish_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci ROW_FORMAT=COMPACT;
@@ -111,10 +111,10 @@ CREATE TABLE `bitcoin_satim` (
 CREATE TABLE `bolgeler` (
   `bolgeid` int(11) NOT NULL,
   `bolgeisim` varchar(30) COLLATE utf8_turkish_ci NOT NULL,
-  `sahipceteid` int(11) NOT NULL DEFAULT '-1',
+  `sahipceteid` int(11) NOT NULL DEFAULT -1,
   `sahipname` varchar(30) COLLATE utf8_turkish_ci NOT NULL DEFAULT 'Yok',
-  `bolgeseviye` int(3) NOT NULL DEFAULT '1',
-  `bolgerenk` int(11) NOT NULL DEFAULT '2',
+  `bolgeseviye` int(3) NOT NULL DEFAULT 1,
+  `bolgerenk` int(11) NOT NULL DEFAULT 2,
   `bolgex` float NOT NULL,
   `bolgey` float NOT NULL,
   `bolgez` float NOT NULL
@@ -194,9 +194,9 @@ CREATE TABLE `ceteler` (
   `Skin` int(11) NOT NULL,
   `Level` int(11) NOT NULL,
   `EXP` int(11) NOT NULL,
-  `cetebolgesayisi` int(11) NOT NULL DEFAULT '0',
+  `cetebolgesayisi` int(11) NOT NULL DEFAULT 0,
   `uyesayisi` int(11) NOT NULL,
-  `Mekan` int(11) NOT NULL DEFAULT '-1',
+  `Mekan` int(11) NOT NULL DEFAULT -1,
   `Rank1` varchar(50) COLLATE utf8_turkish_ci NOT NULL,
   `Rank2` varchar(50) COLLATE utf8_turkish_ci NOT NULL,
   `Rank3` varchar(50) COLLATE utf8_turkish_ci NOT NULL,
@@ -217,7 +217,7 @@ CREATE TABLE `ceteler` (
 
 CREATE TABLE `cetemekanlari` (
   `ID` int(11) NOT NULL,
-  `sahipcete` int(11) NOT NULL DEFAULT '-1',
+  `sahipcete` int(11) NOT NULL DEFAULT -1,
   `X` float NOT NULL,
   `Y` float NOT NULL,
   `Z` float NOT NULL,
@@ -263,12 +263,12 @@ CREATE TABLE `chatlog` (
 
 CREATE TABLE `dukkanlar` (
   `ID` int(11) NOT NULL,
-  `sahip` int(11) NOT NULL DEFAULT '-1',
+  `sahip` int(11) NOT NULL DEFAULT -1,
   `X` float NOT NULL,
   `Y` float NOT NULL,
   `Z` float NOT NULL,
   `fiyat` int(11) NOT NULL,
-  `birikenpara` int(11) NOT NULL DEFAULT '0'
+  `birikenpara` int(11) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
 
 --
@@ -286,22 +286,22 @@ INSERT INTO `dukkanlar` (`ID`, `sahip`, `X`, `Y`, `Z`, `fiyat`, `birikenpara`) V
 (7, -1, -1706.83, 1265.04, 7.19787, 1000000, 0),
 (8, -1, -1712.79, 1271.01, 7.19797, 1000000, 0),
 (9, -1, -1718.6, 1276.83, 7.19807, 1000000, 0),
-(10, -1, 1284.75, -1584.68, 13.5469, 1000000, 223942),
+(10, -1, 1284.75, -1584.68, 13.5469, 1000000, 0),
 (11, -1, 1258.23, -1583.17, 13.5469, 1000000, 0),
 (12, -1, 1238.44, -1583.29, 13.4731, 1000000, 0),
 (13, -1, 1217.64, -1583.42, 13.5469, 1000000, 0),
 (14, -1, 1183.42, -1583.65, 13.5531, 1000000, 0),
 (15, -1, 1163.05, -1584.72, 13.5469, 1000000, 0),
 (16, -1, 1160.88, -1601.4, 13.5469, 1000000, 0),
-(17, -1, -1581.04, 948.504, 7.1875, 1000000, 494272),
-(18, -1, -1581.78, 955.786, 7.1875, 1000000, 287483),
+(17, -1, -1581.04, 948.504, 7.1875, 1000000, 0),
+(18, -1, -1581.78, 955.786, 7.1875, 1000000, 0),
 (19, -1, -1584.19, 963.15, 7.1875, 1000000, 0),
 (20, -1, -1588.51, 970.313, 7.19527, 1000000, 0),
 (21, -1, -1592.4, 976.441, 7.19527, 1000000, 0),
 (22, -1, -1597.7, 983.707, 7.19527, 1000000, 0),
 (23, -1, -1602.82, 989.235, 7.1875, 1000000, 0),
 (24, -1, -1608.22, 996.971, 7.19017, 1000000, 0),
-(25, -1, -1611.91, 1002.59, 7.1875, 1000000, 105271),
+(25, -1, -1611.91, 1002.59, 7.1875, 1000000, 0),
 (26, -1, -1618.11, 1012.04, 7.1875, 2000000, 0),
 (27, -1, -1618.79, 1019.53, 7.1875, 2000000, 0),
 (28, -1, -1619.01, 1026.98, 7.1875, 2000000, 0),
@@ -322,7 +322,7 @@ INSERT INTO `dukkanlar` (`ID`, `sahip`, `X`, `Y`, `Z`, `fiyat`, `birikenpara`) V
 (43, -1, -1616.11, 1155.25, 7.17969, 1000000, 0),
 (44, -1, -1619.01, 1163.52, 7.1875, 1000000, 0),
 (45, -1, -1627.36, 1170.25, 7.1875, 1000000, 0),
-(46, -1, -1641.46, 1205.36, 7.2508, 3000000, 219959),
+(46, -1, -1641.46, 1205.36, 7.2508, 3000000, 0),
 (47, -1, -1910.96, 829.595, 35.1719, 2000000, 0),
 (48, -1, -1882.01, 823.291, 35.1762, 3000000, 0),
 (49, -1, -1884.53, 863.109, 35.1719, 3000000, 0),
@@ -511,14 +511,15 @@ CREATE TABLE `oyuncular` (
   `Deaths` int(11) NOT NULL,
   `Kills` int(11) NOT NULL,
   `dLevel` int(11) NOT NULL,
-  `CEO` int(11) NOT NULL DEFAULT '0',
+  `Anim` int(11) NOT NULL DEFAULT 0,
+  `CEO` int(11) NOT NULL DEFAULT 0,
   `score` int(11) NOT NULL,
   `LoggedIn` int(11) NOT NULL,
   `LastOn` varchar(50) COLLATE utf8_turkish_ci NOT NULL DEFAULT 'Yok',
   `RegisteredDate` varchar(50) COLLATE utf8_turkish_ci NOT NULL DEFAULT 'Yok',
   `TimesOnServer` int(11) NOT NULL,
   `bannedxd` int(11) NOT NULL,
-  `Registered` int(11) NOT NULL DEFAULT '1',
+  `Registered` int(11) NOT NULL DEFAULT 1,
   `Jailed` int(11) NOT NULL,
   `JailTime` int(11) NOT NULL,
   `IP` varchar(30) COLLATE utf8_turkish_ci NOT NULL DEFAULT 's',
@@ -526,42 +527,44 @@ CREATE TABLE `oyuncular` (
   `pinfoy` float NOT NULL,
   `pinfoz` float NOT NULL,
   `onlinet` int(11) NOT NULL,
-  `skinplayer` int(11) NOT NULL DEFAULT '-1',
+  `skinplayer` int(11) NOT NULL DEFAULT -1,
   `rengim` int(11) NOT NULL,
   `bannedtime` int(11) NOT NULL,
-  `cete` int(11) NOT NULL DEFAULT '-1',
-  `ceterutbe` int(11) NOT NULL DEFAULT '0',
+  `cete` int(11) NOT NULL DEFAULT -1,
+  `ceterutbe` int(11) NOT NULL DEFAULT 0,
   `Serial` varchar(500) COLLATE utf8_turkish_ci NOT NULL,
   `oyundaiste` int(11) NOT NULL,
   `mutesure` int(11) NOT NULL,
   `basari_ilkmesaj` int(11) NOT NULL,
   `basari_5hsatma` int(11) NOT NULL,
   `basari_etkkatil` int(11) NOT NULL,
-  `headshotlar` int(11) NOT NULL DEFAULT '0',
-  `dukkanivar` int(11) NOT NULL DEFAULT '0',
+  `headshotlar` int(11) NOT NULL DEFAULT 0,
+  `dukkanivar` int(11) NOT NULL DEFAULT -1,
   `vehiclemod1` varchar(500) COLLATE utf8_turkish_ci NOT NULL DEFAULT '0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,-1,-1,0',
   `vehiclemod2` varchar(500) COLLATE utf8_turkish_ci NOT NULL DEFAULT '0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,-1,-1,0',
   `vehiclemod3` varchar(500) COLLATE utf8_turkish_ci NOT NULL DEFAULT '0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,-1,-1,0',
   `vehiclemod4` varchar(500) COLLATE utf8_turkish_ci NOT NULL DEFAULT '0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,-1,-1,0',
   `vehiclemod5` varchar(500) COLLATE utf8_turkish_ci NOT NULL DEFAULT '0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,-1,-1,0',
   `yetki_ismi` varchar(500) COLLATE utf8_turkish_ci NOT NULL DEFAULT ' ',
-  `VIP` int(11) NOT NULL DEFAULT '0',
-  `VIP_Sure` int(11) NOT NULL DEFAULT '0',
-  `cekilisgun` int(11) NOT NULL DEFAULT '-1',
-  `dukkanalimzaman` int(11) NOT NULL DEFAULT '0',
-  `dukkansatimzaman` int(11) NOT NULL DEFAULT '0',
-  `BitCoin` int(11) NOT NULL DEFAULT '0',
-  `DaireIzin` int(11) NOT NULL DEFAULT '0',
-  `EtkSayisi` int(11) NOT NULL DEFAULT '0',
-  `basari_ilkarkadas` int(11) NOT NULL DEFAULT '0',
-  `GunlukSpec` int(11) NOT NULL DEFAULT '0',
-  `GunlukEtk` int(11) NOT NULL DEFAULT '0',
+  `VIP` int(11) NOT NULL DEFAULT 0,
+  `VIP_Sure` int(11) NOT NULL DEFAULT 0,
+  `cekilisgun` int(11) NOT NULL DEFAULT -1,
+  `dukkanalimzaman` int(11) NOT NULL DEFAULT 0,
+  `dukkansatimzaman` int(11) NOT NULL DEFAULT 0,
+  `BitCoin` int(11) NOT NULL DEFAULT 0,
+  `DaireIzin` int(11) NOT NULL DEFAULT 0,
+  `EtkSayisi` int(11) NOT NULL DEFAULT 0,
+  `basari_ilkarkadas` int(11) NOT NULL DEFAULT 0,
+  `GunlukSpec` int(11) NOT NULL DEFAULT 0,
+  `GunlukEtk` int(11) NOT NULL DEFAULT 0,
   `Kisisel_Durum` varchar(2048) COLLATE utf8_turkish_ci NOT NULL,
-  `exp` int(11) NOT NULL DEFAULT '0',
-  `seviye` int(11) DEFAULT '1',
-  `maxexp` int(11) NOT NULL DEFAULT '150',
-  `mute_` int(11) NOT NULL DEFAULT '0',
-  `banka` int(11) NOT NULL DEFAULT '0'
+  `exp` int(11) NOT NULL DEFAULT 0,
+  `seviye` int(11) DEFAULT 1,
+  `maxexp` int(11) NOT NULL DEFAULT 150,
+  `mute_` int(11) NOT NULL DEFAULT 0,
+  `banka` int(11) NOT NULL DEFAULT 0,
+  `ratio` int(11) NOT NULL DEFAULT 0,
+  `GLKredi` int(11) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
 
 -- --------------------------------------------------------
@@ -865,7 +868,7 @@ ALTER TABLE `bolgeler`
 -- Tablo için AUTO_INCREMENT değeri `bugraporlog`
 --
 ALTER TABLE `bugraporlog`
-  MODIFY `BUGRAPOR_ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `BUGRAPOR_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `ceteler`
