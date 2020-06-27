@@ -1,0 +1,37 @@
+//For Nex-AC v1.0 (0.3.7-R1)
+
+#if defined _nex_ac_lang_included
+	#endinput
+#endif
+#define _nex_ac_lang_included
+
+new
+	SUSPICION_1[] =			"** ANTICHEAT: Şüpheli oyuncu ID %d. Sebep kodu: %03d%s",
+	SUSPICION_2[] =			"** ANTICHEAT: Şüpheli oyuncu IP %s. Sebep kodu: %03d%s",
+	VERSION_WARNING[] =		"** ANTICHEAT: Kullandığınız hile koruması, sunucu versiyonu için uygun değil.",
+	CFG_OPENING_ERROR[] =	"** ANTICHEAT: Hata oluşturma/açma %s!",
+
+#if defined DEBUG
+	DEBUG_CODE_1[] =		"** ANTICHEAT: ID %d aşırı %d flood yaptı. Genel ID: %d",
+	DEBUG_CODE_2[] =		"** ANTICHEAT: Geçersiz sürüm kullanan %d. Versiyon: %s",
+	DEBUG_CODE_3[] =		"** ANTICHEAT: ID %d aşırı %d aynı IP üzerinden bağlanma.",
+	DEBUG_CODE_4[] =		"** ANTICHEAT: RCON girişi yapmaya çalışan IP %s kullanılan şifre %s",
+	DEBUG_CODE_5[] =		"** ANTICHEAT: ID %d NOP kullanmakta %s",
+#endif
+
+	KICK_MSG[] =			"Hile programı kullanıyor olabileceğinizden dolayı sunucudan atıldınız (#%03d)",
+	MAX_CONNECTS_MSG[] =	"Bir IP üzerinden bağlanma sınırını aştın",
+	UNKNOWN_CLIENT_MSG[] =	"Bu eklenti sunucu üzerinde oynamak için uygun değil.",
+
+	LOADED_MSG_1[] =		" Hile koruması Nex-AC yüklendi!",
+	LOADED_MSG_2[] =		" Hile koruması versiyon: %s",
+	LOADED_MSG_3[] =		" Yapımcı: Nexius",
+
+	STATS_STRING_1[] =		" Hile koruması istatistikleri Nex-AC",
+	STATS_STRING_2[] =		" Algılanan ve Engellenen:",
+	STATS_STRING_3[] =		"  %d hile girişimleri",
+	STATS_STRING_4[] =		"  %d hack girişimleri",
+	STATS_STRING_5[] =		"  %d çökertme (crash) girişimleri",
+	STATS_STRING_6[] =		"  %d floodlama girişimleri",
+	STATS_STRING_7[] =		"  %d saldırılar",
+	STATS_STRING_8[] =		" Toplam algılanan ve şüpheli %d hileciler";
