@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<meta>
+  <info type="map" gamemodes="race" name="[RACE] San Fierro Fastlane" author="Ivan(SCG)" description="Multi player version of a same name's race from single player." />
+  <map src="San Fierro Fastlane.map" />
+  <settings>
+    <setting name="#time" value="19:0" />
+    <setting name="#respawn" value="timelimit" />
+    <setting name="#respawntime" value="4" />
+    <setting name="#duration" value="600" />
+  </settings>
+</meta>

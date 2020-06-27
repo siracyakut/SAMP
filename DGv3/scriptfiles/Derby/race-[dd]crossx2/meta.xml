@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<meta>
+  <info type="map" gamemodes="race" name="[DD] Cross X2" author="|GMC|Punkemon" />
+  <map src="[DD] Cross X2.map" />
+  <settings>
+    <setting name="#time" value="5:25" />
+    <setting name="#locked_time" value="[ true ]" />
+    <setting name="#respawn" value="none" />
+    <setting name="#duration" value="600" />
+  </settings>
+</meta>

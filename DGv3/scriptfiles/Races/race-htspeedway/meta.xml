@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<meta>
+  <info type="map" gamemodes="race" name="[RACE] HTSpeedway" author="HumanTraffiC" description="Simple racetrack with lots of tight corners" />
+  <map src="HTSpeedway.map" />
+  <settings>
+    <setting name="#time" value="16:40" />
+    <setting name="#weather" value="6" />
+    <setting name="#respawn" value="timelimit" />
+    <setting name="#duration" value="360" />
+  </settings>
+</meta>

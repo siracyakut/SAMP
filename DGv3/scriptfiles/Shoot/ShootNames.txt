@@ -1,0 +1,14 @@
+[Shooter]BattleArena
+[Shooter]BlueSkyShooter
+[Shooter]Claustrophobia
+[Shooter]Darkness-Will-Fall
+[Shooter]Do-You-Even-Lift
+[Shooter]FourWorlds
+[Shooter]MidnightDisaster
+[Shooter]RedCreekPond
+[Shooter]RoofShooter
+[Shooter]ShootersArena
+[Shooter]ShootersBootcamp
+[Shooter]ShootersWorld
+[Shooter]SpaceInvasion
+[Shooter]WesternVillage

@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-16"?>
+<map mod="deathmatch">
+  <spawnpoint posX="116.878738" posY="127.749008" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint0" />
+  <spawnpoint posX="114.668060" posY="134.783615" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint1" />
+  <spawnpoint posX="112.499939" posY="142.785767" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint2" />
+  <spawnpoint posX="110.399437" posY="150.266693" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint3" />
+  <spawnpoint posX="136.708313" posY="132.631897" posZ="5.490066" rotation="104" vehicle="411" id="spawnpoint4" />
+  <spawnpoint posX="132.815887" posY="147.777588" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint5" />
+  <spawnpoint posX="156.288239" posY="138.030838" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint6" />
+  <spawnpoint posX="152.613846" posY="152.430756" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint7" />
+  <spawnpoint posX="175.728775" posY="143.171188" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint8" />
+  <spawnpoint posX="171.946228" posY="157.596176" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint9" />
+  <spawnpoint posX="124.959412" posY="137.039474" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint10" />
+  <spawnpoint posX="121.196877" posY="152.621750" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint11" />
+  <spawnpoint posX="144.554169" posY="141.729782" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint12" />
+  <spawnpoint posX="141.116623" posY="156.692734" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint13" />
+  <spawnpoint posX="164.266953" posY="146.959824" posZ="5.490081" rotation="104" vehicle="411" id="spawnpoint14" />
+  <spawnpoint posX="160.774780" posY="161.910690" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint15" />
+  <spawnpoint posX="184.154419" posY="152.661758" posZ="5.490066" rotation="104" vehicle="411" id="spawnpoint16" />
+  <spawnpoint posX="180.075226" posY="167.729919" posZ="5.490081" rotation="104" vehicle="411" id="spawnpoint17" />
+  <spawnpoint posX="197.269958" posY="148.645966" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint18" />
+  <spawnpoint posX="192.963120" posY="163.332748" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint19" />
+  <spawnpoint posX="215.937912" posY="153.270126" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint20" />
+  <spawnpoint posX="212.206741" posY="167.985962" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint21" />
+  <spawnpoint posX="235.103088" posY="158.587555" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint22" />
+  <spawnpoint posX="231.768173" posY="172.653152" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint23" />
+  <spawnpoint posX="252.423477" posY="163.239212" posZ="5.439778" rotation="104" vehicle="411" id="spawnpoint24" />
+  <spawnpoint posX="249.748505" posY="176.418884" posZ="5.439778" rotation="104" vehicle="411" id="spawnpoint25" />
+  <spawnpoint posX="204.067978" posY="158.083817" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint26" />
+  <spawnpoint posX="200.555496" posY="172.948807" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint27" />
+  <spawnpoint posX="223.396927" posY="162.833511" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint28" />
+  <spawnpoint posX="220.010422" posY="177.456741" posZ="5.490066" rotation="104" vehicle="411" id="spawnpoint29" />
+  <spawnpoint posX="241.582458" posY="167.848557" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint30" />
+  <spawnpoint posX="238.452240" posY="181.516800" posZ="5.490074" rotation="104" vehicle="411" id="spawnpoint31" />
+  <checkpoint posX="-15.252071" posY="121.370789" posZ="5.861422" size="3.950000" color="#ff7d00" id="checkpoint0" nextid="checkpoint1" />
+  <checkpoint posX="-135.675980" posY="279.608398" posZ="11.063238" size="3.950000" color="#ff7d00" id="checkpoint1" nextid="checkpoint2" />
+  <checkpoint posX="-102.312790" posY="453.649750" posZ="20.594652" size="3.950000" color="#ff7d00" id="checkpoint2" nextid="checkpoint3" />
+  <checkpoint posX="7.623359" posY="451.445648" posZ="18.171171" size="3.950000" color="#ff7d00" id="checkpoint3" nextid="checkpoint4" />
+  <checkpoint posX="79.973206" posY="825.950928" posZ="38.678253" size="3.950000" color="#ff7d00" id="checkpoint4" nextid="checkpoint5" />
+  <checkpoint posX="295.144012" posY="1031.813354" posZ="37.427700" size="3.950000" color="#ff7d00" id="checkpoint5" nextid="checkpoint6" />
+  <checkpoint posX="346.588745" posY="862.217163" posZ="26.736671" size="3.950000" color="#ff7d00" id="checkpoint6" nextid="checkpoint7" />
+  <checkpoint posX="362.605774" posY="640.383606" posZ="18.580997" size="3.950000" color="#ff7d00" id="checkpoint7" nextid="checkpoint8" />
+  <checkpoint posX="259.963287" posY="617.200256" posZ="12.168106" size="3.950000" color="#ff7d00" id="checkpoint8" nextid="checkpoint9" />
+  <checkpoint posX="250.965714" posY="408.347107" posZ="3.757213" size="3.950000" color="#ff7d00" id="checkpoint9" nextid="checkpoint10" />
+  <checkpoint posX="35.004990" posY="347.175934" posZ="4.616969" size="3.950000" color="#ff7d00" id="checkpoint10" nextid="checkpoint11" />
+  <checkpoint posX="259.121002" posY="289.115082" posZ="4.596646" size="3.950000" color="#ff7d00" id="checkpoint11" nextid="checkpoint12" />
+  <checkpoint posX="-13.905336" posY="121.078796" posZ="5.802846" size="3.950000" color="#ff7d00" id="checkpoint12" nextid="checkpoint13" />
+  <checkpoint posX="-135.465225" posY="279.024231" posZ="11.000107" size="3.950000" color="#ff7d00" id="checkpoint13" nextid="checkpoint14" />
+  <checkpoint posX="-101.600922" posY="454.274780" posZ="20.533924" size="3.950000" color="#ff7d00" id="checkpoint14" nextid="checkpoint15" />
+  <checkpoint posX="8.120920" posY="451.389832" posZ="18.212439" size="3.950000" color="#ff7d00" id="checkpoint15" nextid="checkpoint16" />
+  <checkpoint posX="80.274223" posY="826.569641" posZ="38.678253" size="3.950000" color="#ff7d00" id="checkpoint16" nextid="checkpoint17" />
+  <checkpoint posX="295.313019" posY="1030.843506" posZ="37.408474" size="3.950000" color="#ff7d00" id="checkpoint17" nextid="checkpoint18" />
+  <checkpoint posX="346.558746" posY="861.401917" posZ="26.664808" size="3.950000" color="#ff7d00" id="checkpoint18" nextid="checkpoint19" />
+  <checkpoint posX="362.104950" posY="639.885376" posZ="18.473000" size="3.950000" color="#ff7d00" id="checkpoint19" nextid="checkpoint20" />
+  <checkpoint posX="259.332001" posY="617.067322" posZ="12.161354" size="3.950000" color="#ff7d00" id="checkpoint20" nextid="checkpoint21" />
+  <checkpoint posX="250.710587" posY="407.992493" posZ="3.761592" size="3.950000" color="#ff7d00" id="checkpoint21" nextid="checkpoint22" />
+  <checkpoint posX="34.604019" posY="346.947266" posZ="4.616969" size="3.950000" color="#ff7d00" id="checkpoint22" nextid="checkpoint23" />
+  <checkpoint posX="259.416473" posY="288.077667" posZ="4.546325" size="3.950000" color="#ff7d00" id="checkpoint23" nextid="checkpoint24" />
+  <checkpoint posX="95.471817" posY="135.448792" posZ="4.720591" size="3.950000" color="#c8c8c8" id="checkpoint24" />
+  <object posX="279.627808" posY="204.239975" posZ="4.535411" rotX="0" rotY="0" rotZ="101.250007583425" model="17601" id="object0" />
+  <object posX="262.799866" posY="202.578247" posZ="4.639778" rotX="0" rotY="0" rotZ="104.765046360773" model="8344" id="object1" />
+  <object posX="256.130554" posY="303.806152" posZ="5.311031" rotX="0" rotY="0" rotZ="201.563286467591" model="17601" id="object2" />
+  <object posX="256.243256" posY="292.448090" posZ="4.596646" rotX="0" rotY="0" rotZ="-75.2349161912899" model="8343" id="object3" />
+  <object posX="176.232330" posY="155.070099" posZ="4.690074" rotX="0" rotY="0" rotZ="-75.3122654936325" model="8355" id="object4" />
+  <object posX="75.132614" posY="130.868744" posZ="4.666996" rotX="0" rotY="0" rotZ="-78.7500122644175" model="8355" id="object5" />
+  <object posX="35.512985" posY="115.800873" posZ="4.668918" rotX="0" rotY="0" rotZ="-95.9386888225626" model="8355" id="object6" />
+  <object posX="-29.948700" posY="123.096619" posZ="4.670841" rotX="0" rotY="0" rotZ="-126.01903036271" model="8355" id="object7" />
+  <object posX="-97.277763" posY="181.142487" posZ="5.197765" rotX="-0.859436692696235" rotY="-2.5783100780887" rotZ="-147.504947680116" model="8355" id="object8" />
+  <object posX="-125.795952" posY="224.729523" posZ="6.227011" rotX="-4.29718346348117" rotY="-4.29718346348117" rotZ="-169.850473577557" model="8355" id="object9" />
+  <object posX="-125.348816" posY="344.763977" posZ="14.425674" rotX="-3.43774677078494" rotY="-6.01605684887364" rotZ="168.74993624467" model="8355" id="object10" />
+  <object posX="10.075293" posY="473.509674" posZ="18.190426" rotX="-2.5783100780887" rotY="4.29718346348117" rotZ="-191.249988859457" model="8343" id="object11" />
+  <object posX="58.916275" posY="587.818176" posZ="20.861584" rotX="1.71887338539247" rotY="4.29718346348117" rotZ="167.890556847753" model="8355" id="object12" />
+  <object posX="205.679047" posY="304.823120" posZ="4.598567" rotX="0" rotY="0" rotZ="301.953742766761" model="8355" id="object13" />
+  <object posX="149.340027" posY="269.747681" posZ="4.600489" rotX="0" rotY="0" rotZ="295.937743213667" model="8355" id="object14" />
+  <object posX="36.582802" posY="263.206543" posZ="4.565165" rotX="0" rotY="0" rotZ="22.4999953190079" model="8344" id="object15" />
+  <object posX="20.993629" posY="296.148956" posZ="4.591066" rotX="0" rotY="0" rotZ="-43.2037679502807" model="8344" id="object16" />
+  <object posX="23.410114" posY="320.041718" posZ="4.616969" rotX="0" rotY="0" rotZ="-78.8273042709806" model="8344" id="object17" />
+  <object posX="127.093811" posY="367.487274" posZ="4.591135" rotX="0" rotY="0" rotZ="103.828260365735" model="8355" id="object18" />
+  <object posX="232.903778" posY="412.405853" posZ="4.020048" rotX="0" rotY="-0.859436692696235" rotZ="186.170603414063" model="8343" id="object19" />
+  <object posX="246.593933" posY="502.557800" posZ="5.074143" rotX="-1.71887338539247" rotY="0" rotZ="-172.969942293147" model="8355" id="object20" />
+  <object posX="65.756416" posY="622.319275" posZ="20.899649" rotX="0" rotY="5.15662015617741" rotZ="174.766107685102" model="8355" id="object21" />
+  <object posX="71.481422" posY="687.821228" posZ="21.580435" rotX="-6.01605684887364" rotY="1.71887338539247" rotZ="176.484981070495" model="8355" id="object22" />
+  <object posX="74.965698" posY="743.876953" posZ="27.946159" rotX="-7.73493023426611" rotY="0" rotZ="176.484981070495" model="8355" id="object23" />
+  <object posX="90.854111" posY="881.467224" posZ="38.678253" rotX="0" rotY="0" rotZ="168.749993540449" model="8355" id="object24" />
+  <object posX="64.236717" posY="747.549988" posZ="23.254351" rotX="-12.8915503904435" rotY="0" rotZ="168.749993540449" model="8355" id="object25" />
+  <object posX="260.171906" posY="600.001953" posZ="10.620819" rotX="5.15662015617741" rotY="0" rotZ="5.23391216274056" model="8343" id="object26" />
+  <object posX="344.628204" posY="644.941528" posZ="13.993332" rotX="-5.15662015617741" rotY="0" rotZ="185.311166721367" model="8343" id="object27" />
+  <object posX="344.016052" posY="644.608948" posZ="16.097103" rotX="-5.15662015617741" rotY="5.15662015617741" rotZ="185.311166721367" model="8343" id="object28" />
+  <object posX="345.816345" posY="644.738037" posZ="16.801414" rotX="-4.29718346348117" rotY="7.73493023426611" rotZ="185.311166721367" model="8343" id="object29" />
+  <object posX="359.873932" posY="763.341492" posZ="23.664803" rotX="0" rotY="7.73493023426611" rotZ="184.374438022108" model="8355" id="object30" />
+  <object posX="352.445557" posY="832.042725" posZ="24.933655" rotX="-3.43774677078494" rotY="7.73493023426611" rotZ="190.390552166761" model="8355" id="object31" />
+  <object posX="338.680939" posY="898.125916" posZ="29.044365" rotX="-3.43774677078494" rotY="7.73493023426611" rotZ="194.687792926022" model="8355" id="object32" />
+  <object posX="320.167542" posY="963.098145" posZ="33.292587" rotX="-3.43774677078494" rotY="6.87549354156988" rotZ="199.844413082199" model="8355" id="object33" />
+  <object posX="95.284012" posY="926.846741" posZ="38.655174" rotX="0" rotY="-3.43774677078494" rotZ="157.577259239619" model="8355" id="object34" />
+  <object posX="109.199341" posY="971.900146" posZ="38.657097" rotX="0" rotY="-6.01605684887364" rotZ="146.404467643008" model="8355" id="object35" />
+  <object posX="131.367249" posY="1014.561035" posZ="38.659019" rotX="0" rotY="-6.01605684887364" rotZ="132.653423264089" model="8355" id="object36" />
+  <object posX="159.918701" posY="1051.430542" posZ="38.660942" rotX="0" rotY="-6.87549354156988" rotZ="112.026828047821" model="8355" id="object37" />
+  <object posX="214.406174" posY="1077.844116" posZ="38.662865" rotX="0" rotY="-9.45380361965858" rotZ="76.7899236472749" model="8355" id="object38" />
+  <object posX="273.971466" posY="1093.179443" posZ="37.451233" rotX="0" rotY="-6.87549354156988" rotZ="19.2077225324067" model="8355" id="object39" />
+  <object posX="260.229950" posY="1084.564819" posZ="41.049240" rotX="4.29718346348117" rotY="-9.45380361965858" rotZ="38.9747664644201" model="8355" id="object40" />
+  <object posX="201.986694" posY="141.944611" posZ="7.441845" rotX="0" rotY="0" rotZ="13.8283363854824" model="5005" id="object41" />
+  <object posX="43.857437" posY="103.106934" posZ="7.445435" rotX="0" rotY="0" rotZ="13.8283363854824" model="5005" id="object42" />
+  <object posX="-38.264175" posY="104.082474" posZ="12.347326" rotX="0" rotY="0" rotZ="-35.4688377160146" model="5005" id="object43" />
+  <object posX="-143.795715" posY="217.165115" posZ="9.440376" rotX="-0.859436692696235" rotY="0.859436692696235" rotZ="-57.9688330350225" model="5005" id="object44" />
+  <object posX="-149.327469" posY="246.506500" posZ="12.121652" rotX="-0.859436692696235" rotY="5.15662015617741" rotZ="-79.532099654771" model="5005" id="object45" />
+  <object posX="-144.853226" posY="345.500946" posZ="19.423546" rotX="-1.71887338539247" rotY="3.43774677078494" rotZ="-101.172658281083" model="5005" id="object46" />
+  <object posX="-79.867027" posY="454.592560" posZ="18.220270" rotX="2.5783100780887" rotY="6.01605684887364" rotZ="-11.2500263073937" model="8343" id="object47" />
+  <object posX="11.412628" posY="478.010040" posZ="18.265898" rotX="-3.43774677078494" rotY="4.29718346348117" rotZ="168.74993624467" model="8343" id="object48" />
+  <object posX="275.876068" posY="183.662460" posZ="6.761600" rotX="0" rotY="0" rotZ="13.8283363854824" model="5001" id="object49" />
+  <object posX="-123.336853" posY="453.314606" posZ="22.743959" rotX="0" rotY="1.71887338539247" rotZ="-101.250007583425" model="7038" id="object50" />
+  <object posX="-107.299828" posY="479.335083" posZ="22.561232" rotX="0" rotY="-0.859436692696235" rotZ="-126.405547691306" model="7038" id="object51" />
+  <object posX="-84.520294" posY="495.566254" posZ="21.084578" rotX="0" rotY="-2.5783100780887" rotZ="-147.341196342268" model="7038" id="object52" />
+  <object posX="-64.467308" posY="497.594330" posZ="19.269653" rotX="0" rotY="-5.15662015617741" rotZ="-175.075103824016" model="7038" id="object53" />
+  <object posX="176.203293" posY="174.410645" posZ="3.639757" rotX="0" rotY="0" rotZ="-77.0310815832455" model="8185" id="object54" />
+  <object posX="379.055359" posY="763.440369" posZ="26.568811" rotX="0" rotY="0" rotZ="5.15662015617741" model="8185" id="object55" />
+  <object posX="360.327240" posY="891.490479" posZ="31.592751" rotX="4.29718346348117" rotY="1.71887338539247" rotZ="11.2500263073937" model="8185" id="object56" />
+  <object posX="324.979401" posY="1007.555603" posZ="39.346581" rotX="3.43774677078494" rotY="0.859436692696235" rotZ="19.062248548223" model="8185" id="object57" />
+  <object posX="259.274963" posY="1118.567383" posZ="46.817272" rotX="3.43774677078494" rotY="0.859436692696235" rotZ="37.2650604037497" model="8185" id="object58" />
+  <object posX="204.554703" posY="1098.510254" posZ="42.589428" rotX="-0.859436692696235" rotY="0.859436692696235" rotZ="77.1084308855881" model="8185" id="object59" />
+  <object posX="197.883911" posY="1086.907349" posZ="42.423851" rotX="-0.859436692696235" rotY="0.859436692696235" rotZ="110.85845251199" model="8185" id="object60" />
+  <object posX="104.908356" posY="1016.256226" posZ="40.670055" rotX="-0.859436692696235" rotY="0.859436692696235" rotZ="132.499011138301" model="8185" id="object61" />
+  <object posX="82.057373" posY="966.681763" posZ="39.828060" rotX="-0.859436692696235" rotY="0.859436692696235" rotZ="146.327290228004" model="8185" id="object62" />
+  <object posX="70.957436" posY="911.604004" posZ="38.968700" rotX="-0.859436692696235" rotY="0.859436692696235" rotZ="160.155626613487" model="8185" id="object63" />
+  <object posX="76.378761" posY="904.609619" posZ="39.720520" rotX="0" rotY="0.859436692696235" rotZ="167.890614143532" model="8185" id="object64" />
+  <object posX="54.618153" posY="740.523621" posZ="27.868538" rotX="-8.59436692696235" rotY="0" rotZ="176.485038366274" model="8185" id="object65" />
+  <object posX="51.695770" posY="692.351563" posZ="19.818804" rotX="-0.859436692696235" rotY="0" rotZ="176.485038366274" model="8185" id="object66" />
+  <object posX="43.015350" posY="587.995117" posZ="20.487051" rotX="-2.5783100780887" rotY="0" rotZ="-12.9688996927862" model="8650" id="object67" />
+  <object posX="38.495319" posY="568.433655" posZ="21.402166" rotX="-1.71887338539247" rotY="0" rotZ="-12.9688996927862" model="8650" id="object68" />
+  <object posX="32.125610" posY="538.637695" posZ="21.882250" rotX="0" rotY="0" rotZ="-11.2500263073937" model="8650" id="object69" />
+  <object posX="24.268845" posY="509.443420" posZ="20.771902" rotX="4.29718346348117" rotY="0" rotZ="-18.9848992458803" model="8650" id="object70" />
+  <object posX="20.191671" posY="497.583496" posZ="19.928917" rotX="4.29718346348117" rotY="3.43774677078494" rotZ="-18.1254625531841" model="8650" id="object71" />
+  <object posX="61.299088" posY="502.031494" posZ="23.882708" rotX="3.43774677078494" rotY="-10.3132403123548" rotZ="-11.2500263073937" model="8656" id="object72" />
+  <object posX="52.805325" posY="472.486084" posZ="22.273430" rotX="2.5783100780887" rotY="-10.3132403123548" rotZ="-19.8443359385765" model="8656" id="object73" />
+  <object posX="37.026108" posY="447.831146" posZ="20.435032" rotX="4.29718346348117" rotY="-10.3132403123548" rotZ="-45.8594273307121" model="8656" id="object74" />
+  <object posX="12.902259" posY="433.710266" posZ="18.179527" rotX="4.29718346348117" rotY="-10.3132403123548" rotZ="-73.59339210824" model="8656" id="object75" />
+  <object posX="-16.448210" posY="431.798401" posZ="15.927010" rotX="4.29718346348117" rotY="-6.87549354156988" rotZ="-99.3764355933476" model="8656" id="object76" />
+  <object posX="-38.235401" posY="442.889679" posZ="13.770284" rotX="6.01605684887364" rotY="-10.3132403123548" rotZ="-133.126457219749" model="8656" id="object77" />
+  <object posX="-40.901539" posY="493.040863" posZ="17.227390" rotX="6.01605684887364" rotY="6.87549354156988" rotZ="65.0763171878408" model="8656" id="object78" />
+  <object posX="-27.305145" posY="483.899475" posZ="15.730114" rotX="-0.859436692696235" rotY="0" rotZ="43.4357585615292" model="8656" id="object79" />
+  <object posX="200.493896" posY="266.497131" posZ="4.546325" rotX="0" rotY="0" rotZ="102.186850874244" model="8355" id="object80" />
+  <object posX="218.872833" posY="239.052185" posZ="4.570606" rotX="0" rotY="0" rotZ="102.186850874244" model="8355" id="object81" />
+  <object posX="114.304611" posY="177.361450" posZ="4.689930" rotX="0" rotY="0" rotZ="102.186850874244" model="8355" id="object82" />
+  <object posX="94.333267" posY="173.111572" posZ="4.691852" rotX="0" rotY="0" rotZ="102.186850874244" model="8355" id="object83" />
+  <object posX="157.809875" posY="185.725357" posZ="3.460467" rotX="0" rotY="0" rotZ="-75.312208197853" model="8185" id="object84" />
+  <object posX="-54.133968" posY="136.677155" posZ="5.797767" rotX="0" rotY="-12.0321136977473" rotZ="-126.01903036271" model="8355" id="object85" />
+  <object posX="-40.303234" posY="129.054291" posZ="6.387575" rotX="0" rotY="-6.87549354156988" rotZ="-126.01903036271" model="8355" id="object86" />
+  <object posX="-100.290726" posY="185.246490" posZ="6.551248" rotX="-0.859436692696235" rotY="-4.29718346348117" rotZ="-154.380498517466" model="8355" id="object87" />
+  <object posX="-33.289661" posY="129.749695" posZ="5.890056" rotX="0" rotY="-5.15662015617741" rotZ="-126.01903036271" model="8355" id="object88" />
+  <object posX="266.532074" posY="497.125122" posZ="4.615951" rotX="1.71887338539247" rotY="2.5783100780887" rotZ="6.01605684887364" model="8185" id="object89" />
+  <object posX="133.084106" posY="348.839874" posZ="3.540812" rotX="0" rotY="2.5783100780887" rotZ="-77.0310815832455" model="8185" id="object90" />
+  <object posX="269.416382" posY="403.430878" posZ="4.083892" rotX="0" rotY="0" rotZ="-22.4999953190079" model="8650" id="object91" />
+  <object posX="253.505249" posY="379.715668" posZ="4.524202" rotX="0" rotY="0" rotZ="-44.9999906380158" model="8650" id="object92" />
+  <object posX="233.916199" posY="371.597137" posZ="4.560661" rotX="0" rotY="0" rotZ="-77.8132262693786" model="8650" id="object93" />
+  <object posX="386.195160" posY="658.847290" posZ="24.054470" rotX="6.01605684887364" rotY="-4.29718346348117" rotZ="-4.37447547004432" model="8650" id="object94" />
+  <object posX="380.639648" posY="633.755127" posZ="20.931091" rotX="7.73493023426611" rotY="-4.29718346348117" rotZ="-20.8584712359581" model="8650" id="object95" />
+  <object posX="366.904144" posY="613.599731" posZ="17.297804" rotX="7.73493023426611" rotY="-4.29718346348117" rotZ="-45.0773399403585" model="8650" id="object96" />
+  <object posX="342.971222" posY="600.465332" posZ="13.236334" rotX="7.73493023426611" rotY="-4.29718346348117" rotZ="-76.8764402743397" model="8650" id="object97" />
+  <object posX="313.952026" posY="597.533752" posZ="10.147770" rotX="4.29718346348117" rotY="-4.29718346348117" rotZ="-91.5641560567388" model="8650" id="object98" />
+  <object posX="305.692017" posY="601.241272" posZ="10.726614" rotX="-0.859436692696235" rotY="-4.29718346348117" rotZ="-107.26594984074" model="8650" id="object99" />
+  <object posX="218.388275" posY="589.275940" posZ="10.760828" rotX="-6.01605684887364" rotY="-4.29718346348117" rotZ="-180.704757935854" model="8650" id="object100" />
+  <object posX="223.521393" posY="611.115234" posZ="12.526798" rotX="-3.43774677078494" rotY="-4.29718346348117" rotZ="-200.626443176773" model="8650" id="object101" />
+  <object posX="239.117798" posY="630.826355" posZ="14.059061" rotX="-3.43774677078494" rotY="-4.29718346348117" rotZ="-230.079281339693" model="8650" id="object102" />
+  <object posX="263.144440" posY="645.082458" posZ="15.517965" rotX="2.5783100780887" rotY="10.3132403123548" rotZ="-67.4999859570237" model="8650" id="object103" />
+  <object posX="288.816895" posY="647.991211" posZ="15.559914" rotX="-1.71887338539247" rotY="13.7509870831398" rotZ="-95.2339507345517" model="8650" id="object104" />
+  <object posX="346.444305" posY="677.788025" posZ="19.670179" rotX="5.15662015617741" rotY="0" rotZ="4.29718346348117" model="8650" id="object105" />
+  <object posX="344.171051" posY="708.080078" posZ="21.288673" rotX="0.859436692696235" rotY="0" rotZ="4.29718346348117" model="8650" id="object106" />
+  <object posX="341.901978" posY="738.364868" posZ="21.530807" rotX="0" rotY="0" rotZ="4.29718346348117" model="8650" id="object107" />
+  <object posX="339.632233" posY="768.685486" posZ="21.563337" rotX="0" rotY="0" rotZ="4.29718346348117" model="8650" id="object108" />
+  <object posX="337.341858" posY="799.037598" posZ="21.556158" rotX="0" rotY="0" rotZ="4.29718346348117" model="8650" id="object109" />
+  <object posX="333.479065" posY="829.024658" posZ="22.448502" rotX="3.43774677078494" rotY="0" rotZ="10.3132403123548" model="8650" id="object110" />
+  <object posX="328.040680" posY="858.955383" posZ="24.283142" rotX="3.43774677078494" rotY="0" rotZ="10.3132403123548" model="8650" id="object111" />
+  <object posX="323.519989" posY="888.917297" posZ="26.807274" rotX="6.01605684887364" rotY="0" rotZ="6.87549354156988" model="8650" id="object112" />
+  <object posX="316.629913" posY="918.180908" posZ="29.249811" rotX="1.71887338539247" rotY="0" rotZ="19.7670439320134" model="8650" id="object113" />
+  <object posX="306.342590" posY="946.893005" posZ="30.877539" rotX="4.29718346348117" rotY="0" rotZ="19.7670439320134" model="8650" id="object114" />
+  <object posX="296.057861" posY="975.513794" posZ="32.699825" rotX="2.5783100780887" rotY="0" rotZ="19.7670439320134" model="8650" id="object115" />
+  <object posX="285.774292" posY="1004.180298" posZ="34.056679" rotX="2.5783100780887" rotY="0" rotZ="19.7670439320134" model="8650" id="object116" />
+  <object posX="277.544434" posY="1027.097900" posZ="35.148529" rotX="2.5783100780887" rotY="0" rotZ="19.7670439320134" model="8650" id="object117" />
+  <object posX="251.277863" posY="1048.618774" posZ="35.623608" rotX="0" rotY="0" rotZ="76.8764402743397" model="8650" id="object118" />
+  <object posX="238.677856" posY="1051.464478" posZ="35.644505" rotX="0" rotY="0" rotZ="76.8764402743397" model="8650" id="object119" />
+  <object posX="209.729065" posY="1049.677368" posZ="35.893242" rotX="0" rotY="0" rotZ="111.485898593438" model="8650" id="object120" />
+  <object posX="182.153030" posY="1033.951538" posZ="36.596107" rotX="0" rotY="0" rotZ="132.267020527053" model="8650" id="object121" />
+  <object posX="173.592163" posY="1026.136719" posZ="36.617756" rotX="0" rotY="0" rotZ="132.267020527053" model="8650" id="object122" />
+  <object posX="149.623566" posY="1004.399658" posZ="37.682652" rotX="0" rotY="0" rotZ="139.142514068623" model="8650" id="object123" />
+  <object posX="133.798737" posY="979.059814" posZ="37.689304" rotX="0" rotY="0" rotZ="157.190856502582" model="8650" id="object124" />
+  <object posX="125.015182" posY="951.040894" posZ="37.683231" rotX="0" rotY="0" rotZ="168.363590803413" model="8650" id="object125" />
+  <object posX="120.774101" posY="930.580444" posZ="38.918537" rotX="0" rotY="0" rotZ="168.363590803413" model="8650" id="object126" />
+  <object posX="114.631966" posY="900.744080" posZ="38.918537" rotX="0" rotY="0" rotZ="168.363590803413" model="8650" id="object127" />
+  <object posX="108.642136" posY="870.827026" posZ="38.507252" rotX="0" rotY="177.9034526839" rotZ="168.749993540449" model="8656" id="object128" />
+  <object posX="102.672844" posY="840.863647" posZ="38.532299" rotX="0" rotY="177.9034526839" rotZ="168.749993540449" model="8656" id="object129" />
+  <object posX="96.734459" posY="810.927307" posZ="38.557270" rotX="0" rotY="177.9034526839" rotZ="168.749993540449" model="8656" id="object130" />
+  <object posX="96.155991" posY="810.151001" posZ="36.355274" rotX="0" rotY="0" rotZ="168.749993540449" model="8656" id="object131" />
+  <object posX="93.612427" posY="780.191711" posZ="33.086647" rotX="-8.59436692696235" rotY="0" rotZ="181.641601226672" model="8656" id="object132" />
+  <object posX="94.001183" posY="750.064087" posZ="29.044176" rotX="-6.87549354156988" rotY="0" rotZ="179.92272784128" model="8656" id="object133" />
+  <object posX="93.286530" posY="719.750244" posZ="25.425369" rotX="-6.87549354156988" rotY="0" rotZ="177.344417763191" model="8656" id="object134" />
+  <object posX="23.722843" posY="284.515717" posZ="4.469178" rotX="0" rotY="0" rotZ="22.4999953190079" model="8656" id="object135" />
+  <object posX="29.910292" posY="269.339050" posZ="4.469178" rotX="0" rotY="0" rotZ="22.4999953190079" model="8656" id="object136" />
+  <object posX="28.428516" posY="309.468323" posZ="4.445078" rotX="0" rotY="0" rotZ="-42.9718346348117" model="8656" id="object137" />
+  <object posX="35.390667" posY="316.958466" posZ="4.445981" rotX="0" rotY="0" rotZ="-42.9718346348117" model="8656" id="object138" />
+  <object posX="-19.944221" posY="342.591797" posZ="4.795982" rotX="0" rotY="0" rotZ="-42.9718346348117" model="8656" id="object139" />
+  <object posX="-34.157146" posY="321.562836" posZ="4.770982" rotX="0" rotY="0" rotZ="-27.5019741662795" model="8656" id="object140" />
+  <object posX="-36.684566" posY="303.310150" posZ="4.795982" rotX="0" rotY="0" rotZ="-3.43774677078494" model="8656" id="object141" />
+  <object posX="-32.389091" posY="279.785736" posZ="4.795982" rotX="0" rotY="0" rotZ="20.6264806247096" model="8656" id="object142" />
+  <object posX="-21.348196" posY="252.465973" posZ="4.870081" rotX="0" rotY="0" rotZ="23.2047907027983" model="8656" id="object143" />
+  <object posX="-8.781633" posY="234.267776" posZ="4.895080" rotX="0" rotY="0" rotZ="39.5340305682473" model="8656" id="object144" />
+  <object posX="2.996227" posY="228.023148" posZ="4.895080" rotX="0" rotY="0" rotZ="59.3010745002607" model="8656" id="object145" />
+  <object posX="26.289543" posY="214.168350" posZ="4.904960" rotX="0" rotY="0" rotZ="59.3010745002607" model="8656" id="object146" />
+  <object posX="47.982452" posY="207.255127" posZ="4.919842" rotX="0" rotY="0" rotZ="83.3653018957553" model="8656" id="object147" />
+  <object posX="73.111397" posY="211.375443" posZ="4.944182" rotX="0" rotY="0" rotZ="110.867218766255" model="8656" id="object148" />
+  <object posX="100.764336" posY="223.582306" posZ="4.919551" rotX="0" rotY="0" rotZ="116.883275615129" model="8656" id="object149" />
+  <object posX="120.645927" posY="233.658508" posZ="4.929504" rotX="0" rotY="0" rotZ="116.883275615129" model="8656" id="object150" />
+  <object posX="73.624634" posY="253.346741" posZ="4.744180" rotX="0" rotY="-1.71887338539247" rotZ="-61.3978135515419" model="8656" id="object151" />
+  <object posX="100.365059" posY="266.388702" posZ="4.704499" rotX="0" rotY="-1.71887338539247" rotZ="-66.5544337077193" model="8656" id="object152" />
+  <object posX="187.452087" posY="312.297913" posZ="7.427006" rotX="0" rotY="0" rotZ="208.516129311504" model="5005" id="object153" />
+  <object posX="305.800110" posY="296.809906" posZ="7.454247" rotX="0" rotY="0" rotZ="106.406685035382" model="5005" id="object154" />
+  <object posX="316.709778" posY="267.930481" posZ="2.196707" rotX="0" rotY="-10.3132403123548" rotZ="-148.682662428008" model="16317" id="object155" />
+  <object posX="313.483307" posY="273.930176" posZ="1.636542" rotX="0" rotY="-10.3132403123548" rotZ="-148.682662428008" model="16317" id="object156" />
+  <object posX="316.031616" posY="261.956360" posZ="2.602122" rotX="5.15662015617741" rotY="-10.3132403123548" rotZ="-126.182667109" model="16317" id="object157" />
+  <object posX="392.185699" posY="497.528687" posZ="2.052205" rotX="-11.1726770050511" rotY="2.5783100780887" rotZ="-51.5662015617741" model="4847" id="object158" />
+  <object posX="46.749550" posY="414.852692" posZ="4.986700" rotX="-9.45380361965858" rotY="0" rotZ="14.610423775836" model="4847" id="object159" />
+  <object posX="234.653351" posY="431.233521" posZ="4.262614" rotX="0" rotY="0" rotZ="5.07932814961426" model="8650" id="object160" />
+  <object posX="228.968109" posY="414.694641" posZ="2.418882" rotX="0" rotY="0" rotZ="-26.0747362986086" model="16317" id="object161" />
+  <object posX="215.907440" posY="408.385773" posZ="3.008589" rotX="0" rotY="0" rotZ="-206.556613652156" model="16317" id="object162" />
+  <object posX="208.536560" posY="408.284241" posZ="3.483405" rotX="0" rotY="0" rotZ="-225.464392778812" model="16317" id="object163" />
+  <object posX="-9.862328" posY="361.689331" posZ="3.827082" rotX="0" rotY="-1.71887338539247" rotZ="71.0413807929478" model="16317" id="object164" />
+  <object posX="45.178123" posY="254.891968" posZ="3.809112" rotX="0" rotY="0" rotZ="-199.681234702146" model="16317" id="object165" />
+  <object posX="56.019329" posY="254.719940" posZ="4.109110" rotX="0" rotY="1.71887338539247" rotZ="-228.042645561121" model="16317" id="object166" />
+  <object posX="258.940979" posY="193.599731" posZ="5.414536" rotX="1.71887338539247" rotY="-0.859436692696235" rotZ="12.1094630000899" model="978" id="object167" />
+  <object posX="80.803436" posY="622.149597" posZ="25.591270" rotX="0" rotY="0" rotZ="82.1877590352024" model="5005" id="object168" />
+  <object posX="108.901237" posY="867.312439" posZ="40.814487" rotX="0.859436692696235" rotY="0.859436692696235" rotZ="-10.3905896146975" model="8656" id="object169" />
+  <object posX="220.417557" posY="558.980286" posZ="7.416980" rotX="-4.29718346348117" rotY="-3.43774677078494" rotZ="-171.105365740452" model="8656" id="object170" />
+  <object posX="224.646667" posY="528.864441" posZ="5.801419" rotX="-1.71887338539247" rotY="-3.43774677078494" rotZ="-172.824239125845" model="8656" id="object171" />
+  <object posX="228.424088" posY="498.584503" posZ="4.886517" rotX="-1.71887338539247" rotY="-3.43774677078494" rotZ="-172.824239125845" model="8656" id="object172" />
+  <object posX="231.769897" posY="468.232727" posZ="4.375814" rotX="0" rotY="-3.43774677078494" rotZ="-174.543112511237" model="8656" id="object173" />
+  <object posX="233.630280" posY="447.552094" posZ="2.575928" rotX="0" rotY="0" rotZ="89.9999812760317" model="980" id="object174" />
+  <object posX="195.211090" posY="271.820099" posZ="4.315820" rotX="0" rotY="0" rotZ="109.062229824255" model="8650" id="object175" />
+  <object posX="232.753159" posY="275.594940" posZ="4.236655" rotX="0" rotY="0" rotZ="82.4196923506714" model="8650" id="object176" />
+  <object posX="57.180679" posY="156.839371" posZ="4.432183" rotX="0" rotY="0" rotZ="-65.3171886449138" model="8650" id="object177" />
+  <object posX="40.741074" posY="148.551895" posZ="4.432189" rotX="0" rotY="0" rotZ="-60.1605684887364" model="8650" id="object178" />
+  <object posX="12.586426" posY="139.048553" posZ="4.409249" rotX="0" rotY="0" rotZ="-82.5059224988385" model="8650" id="object179" />
+  <object posX="-27.836592" posY="150.021393" posZ="4.914959" rotX="0" rotY="0" rotZ="-125.709747744899" model="8650" id="object180" />
+  <object posX="-52.153332" posY="168.235977" posZ="4.893431" rotX="0" rotY="0" rotZ="-125.709747744899" model="8650" id="object181" />
+  <object posX="-64.835213" posY="177.328583" posZ="4.894977" rotX="0" rotY="0" rotZ="-125.709747744899" model="8650" id="object182" />
+  <object posX="-85.150436" posY="199.072983" posZ="4.912744" rotX="0" rotY="0" rotZ="-148.209743063907" model="8650" id="object183" />
+  <object posX="-99.054283" posY="221.550446" posZ="4.909967" rotX="0" rotY="0" rotZ="-148.209743063907" model="8650" id="object184" />
+  <object posX="-109.900948" posY="249.349823" posZ="6.280542" rotX="-5.15662015617741" rotY="0" rotZ="-168.990864997522" model="8650" id="object185" />
+  <object posX="-115.672081" posY="279.098785" posZ="9.001183" rotX="-5.15662015617741" rotY="0" rotZ="-168.990864997522" model="8650" id="object186" />
+  <object posX="-114.819885" posY="308.593933" posZ="11.457281" rotX="-3.43774677078494" rotY="0" rotZ="-193.914700973051" model="8650" id="object187" />
+  <object posX="-108.181946" posY="338.222046" posZ="13.328063" rotX="-3.43774677078494" rotY="0" rotZ="-191.336390894963" model="8650" id="object188" />
+  <object posX="-102.210381" posY="367.903198" posZ="15.161015" rotX="-3.43774677078494" rotY="0" rotZ="-191.336390894963" model="8650" id="object189" />
+  <object posX="-96.314514" posY="397.015167" posZ="16.853153" rotX="-3.43774677078494" rotY="0" rotZ="-191.336390894963" model="8650" id="object190" />
+  <object posX="-90.265068" posY="426.714447" posZ="18.355488" rotX="-2.5783100780887" rotY="0" rotZ="-191.336390894963" model="8650" id="object191" />
+  <object posX="88.553474" posY="154.205841" posZ="4.405921" rotX="0" rotY="0" rotZ="11.2500263073937" model="16601" id="object192" />
+  <object posX="89.797653" posY="114.549004" posZ="4.382989" rotX="0" rotY="0" rotZ="11.2500263073937" model="16601" id="object193" />
+  <object posX="-84.882103" posY="445.636993" posZ="19.227032" rotX="0" rotY="0" rotZ="58.9056190300614" model="973" id="object194" />
+  <object posX="-78.984390" posY="452.659668" posZ="18.843222" rotX="-4.29718346348117" rotY="5.15662015617741" rotZ="41.7168851761367" model="973" id="object195" />
+  <object posX="-71.209991" posY="457.381317" posZ="18.131962" rotX="-5.15662015617741" rotY="4.29718346348117" rotZ="20.2310251545103" model="973" id="object196" />
+  <object posX="-62.265472" posY="458.834290" posZ="17.365004" rotX="-4.29718346348117" rotY="5.15662015617741" rotZ="-1.25489216289553" model="973" id="object197" />
+  <object posX="-53.472252" posY="457.035004" posZ="16.452559" rotX="-4.29718346348117" rotY="5.15662015617741" rotZ="-20.1624994022127" model="973" id="object198" />
+  <object posX="-45.662544" posY="452.383331" posZ="15.547283" rotX="-4.29718346348117" rotY="5.15662015617741" rotZ="-40.7889800269223" model="973" id="object199" />
+  <object posX="197.758301" posY="1045.450195" posZ="36.851246" rotX="-4.29718346348117" rotY="5.15662015617741" rotZ="15.4610369184872" model="973" id="object200" />
+  <object posX="268.428406" posY="1043.338379" posZ="35.071072" rotX="2.5783100780887" rotY="0" rotZ="-24.5370321680365" model="973" id="object201" />
+  <object posX="268.378601" posY="1043.387817" posZ="35.738590" rotX="2.5783100780887" rotY="0" rotZ="-24.5370321680365" model="973" id="object202" />
+  <object posX="268.330078" posY="1043.357300" posZ="36.527859" rotX="2.5783100780887" rotY="0" rotZ="-24.5370321680365" model="973" id="object203" />
+  <object posX="347.104126" posY="658.371399" posZ="18.632088" rotX="12.8915503904435" rotY="6.87549354156988" rotZ="-98.8351623642875" model="973" id="object204" />
+  <object posX="344.948120" posY="649.485596" posZ="17.575567" rotX="12.8915503904435" rotY="6.87549354156988" rotZ="-111.726712754731" model="973" id="object205" />
+  <object posX="339.940186" posY="642.065002" posZ="16.479860" rotX="12.8915503904435" rotY="6.87549354156988" rotZ="-139.228858808349" model="973" id="object206" />
+  <object posX="332.527832" posY="637.103027" posZ="15.168702" rotX="18.0481705466209" rotY="10.3132403123548" rotZ="-158.136580639225" model="973" id="object207" />
+  <object posX="323.840973" posY="635.439209" posZ="13.709044" rotX="19.7670439320134" rotY="8.59436692696235" rotZ="-185.638726692843" model="973" id="object208" />
+  <object posX="317.805664" posY="635.437317" posZ="13.410438" rotX="6.87549354156988" rotY="-1.71887338539247" rotZ="-176.184865777405" model="973" id="object209" />
+  <object posX="309.069366" posY="637.156982" posZ="13.934304" rotX="6.87549354156988" rotY="-4.29718346348117" rotZ="-204.546505819499" model="973" id="object210" />
+  <object posX="302.419922" posY="643.027405" posZ="14.622451" rotX="6.87549354156988" rotY="-4.29718346348117" rotZ="-237.205157437735" model="973" id="object211" />
+  <object posX="261.492462" posY="588.535828" posZ="10.010690" rotX="6.87549354156988" rotY="-1.71887338539247" rotZ="-338.45522231694" model="973" id="object212" />
+  <object posX="270.264160" posY="591.086670" posZ="10.357575" rotX="6.87549354156988" rotY="-1.71887338539247" rotZ="-349.705248624334" model="973" id="object213" />
+  <object posX="279.202423" posY="592.655945" posZ="10.624924" rotX="6.87549354156988" rotY="-1.71887338539247" rotZ="-349.705248624334" model="973" id="object214" />
+  <object posX="282.083984" posY="151.890289" posZ="8.366854" rotX="0" rotY="0" rotZ="13.8283363854824" model="3452" id="object215" />
+  <object posX="253.390671" posY="144.839813" posZ="8.378857" rotX="0" rotY="0" rotZ="13.8283363854824" model="3452" id="object216" />
+  <object posX="224.678406" posY="137.805420" posZ="8.404109" rotX="0" rotY="0" rotZ="13.8283363854824" model="3452" id="object217" />
+  <object posX="195.922562" posY="131.580872" posZ="8.482182" rotX="0" rotY="0" rotZ="13.8283363854824" model="3452" id="object218" />
+  <object posX="167.465485" posY="124.624489" posZ="8.460064" rotX="0" rotY="0" rotZ="13.8283363854824" model="3452" id="object219" />
+  <object posX="138.895447" posY="117.156723" posZ="8.389493" rotX="0" rotY="0" rotZ="13.8283363854824" model="3452" id="object220" />
+  <object posX="110.036102" posY="110.505013" posZ="8.398568" rotX="0" rotY="0" rotZ="13.8283363854824" model="3452" id="object221" />
+  <object posX="81.893188" posY="103.507729" posZ="8.393354" rotX="0" rotY="0" rotZ="13.8283363854824" model="3452" id="object222" />
+  <object posX="53.313316" posY="96.353577" posZ="8.316906" rotX="0" rotY="0" rotZ="13.8283363854824" model="3452" id="object223" />
+  <object posX="24.879833" posY="89.246201" posZ="8.337414" rotX="0" rotY="0" rotZ="13.8283363854824" model="3452" id="object224" />
+  <object posX="-3.338690" posY="82.140594" posZ="10.277777" rotX="0" rotY="8.59436692696235" rotZ="12.9688996927862" model="3452" id="object225" />
+  <object posX="-26.863808" posY="83.643547" posZ="14.241498" rotX="-4.29718346348117" rotY="0" rotZ="-38.5973591647674" model="3452" id="object226" />
+  <object posX="-44.805698" posY="97.312408" posZ="14.202147" rotX="-4.29718346348117" rotY="0" rotZ="-36.0190490866787" model="3452" id="object227" />
+  <object posX="271.342285" posY="356.943970" posZ="7.896800" rotX="0" rotY="0" rotZ="-240.642331250725" model="3453" id="object228" />
+  <object posX="-14.401803" posY="228.468231" posZ="8.719183" rotX="0" rotY="0" rotZ="-31.1717115483129" model="3452" id="object229" />
+  <object posX="-28.564047" posY="245.857620" posZ="8.648435" rotX="0" rotY="0" rotZ="-64.6896852676866" model="3452" id="object230" />
+  <object posX="-39.529026" posY="271.543396" posZ="8.091393" rotX="0" rotY="0" rotZ="-68.9868687311677" model="3452" id="object231" />
+  <object posX="-46.103191" posY="294.500580" posZ="7.636080" rotX="0" rotY="0" rotZ="-90.4727860485736" model="3452" id="object232" />
+  <object posX="-37.395535" posY="336.312256" posZ="7.591393" rotX="0" rotY="0" rotZ="-123.131380371031" model="3452" id="object233" />
+  <object posX="10.673460" posY="213.056824" posZ="8.714586" rotX="0" rotY="0" rotZ="-32.0310336494501" model="3452" id="object234" />
+  <object posX="35.474930" posY="197.206726" posZ="8.664587" rotX="0" rotY="0" rotZ="-32.8904703421464" model="3452" id="object235" />
+  <object posX="46.522049" posY="198.531128" posZ="8.689669" rotX="0" rotY="0" rotZ="-6.24793286856309" model="3452" id="object236" />
+  <object posX="77.424744" posY="203.132904" posZ="8.714579" rotX="0" rotY="0" rotZ="20.3946046050202" model="3452" id="object237" />
+  <object posX="103.470428" posY="214.283417" posZ="8.389935" rotX="0" rotY="0.859436692696235" rotZ="25.5512247611976" model="3452" id="object238" />
+  <object posX="129.774872" posY="227.212692" posZ="7.599912" rotX="0" rotY="0.859436692696235" rotZ="25.5512247611976" model="3452" id="object239" />
+  <object posX="66.579277" posY="529.257019" posZ="24.774462" rotX="0.859436692696235" rotY="0.859436692696235" rotZ="-10.3905896146975" model="8656" id="object240" />
+  <object posX="170.435501" posY="199.829697" posZ="9.321966" rotX="0" rotY="0" rotZ="104.687697058431" model="8434" id="object241" />
+  <object posX="112.527367" posY="184.595825" posZ="9.302035" rotX="0" rotY="0" rotZ="104.687697058431" model="8434" id="object242" />
+  <object posX="144.385513" posY="196.414093" posZ="0.183960" rotX="0" rotY="0" rotZ="14.6877730781787" model="8392" id="object243" />
+  <object posX="-36.104176" posY="190.698303" posZ="19.281229" rotX="0" rotY="0" rotZ="-28.5934014702242" model="6389" id="object244" />
+  <object posX="-77.588165" posY="433.089386" posZ="19.676514" rotX="0" rotY="0" rotZ="19.062248548223" model="5767" id="object245" />
+  <object posX="160.282364" posY="798.023987" posZ="69.155106" rotX="0" rotY="0" rotZ="-96.8754748176015" model="4601" id="object246" />
+  <object posX="233.049057" posY="448.175354" posZ="0.100448" rotX="0" rotY="0" rotZ="-118.602206296301" model="615" id="object247" />
+  <object posX="231.800934" posY="424.122986" posZ="-3.047438" rotX="0" rotY="0" rotZ="0" model="617" id="object248" />
+  <object posX="229.707550" posY="431.511505" posZ="-1.895806" rotX="-5.15662015617741" rotY="0" rotZ="-58.441695103344" model="617" id="object249" />
+  <object posX="231.789490" posY="442.238464" posZ="-2.878453" rotX="-5.15662015617741" rotY="0" rotZ="-58.441695103344" model="617" id="object250" />
+  <object posX="222.299881" posY="468.172302" posZ="-3.213367" rotX="0" rotY="0" rotZ="0" model="654" id="object251" />
+  <object posX="219.704132" posY="470.650452" posZ="0.168335" rotX="0" rotY="0" rotZ="0" model="655" id="object252" />
+  <object posX="223.376389" posY="452.902283" posZ="-4.336478" rotX="0" rotY="0" rotZ="0" model="656" id="object253" />
+  <object posX="222.260345" posY="547.511719" posZ="5.009164" rotX="0" rotY="0" rotZ="0" model="669" id="object254" />
+  <object posX="230.999634" posY="468.938965" posZ="3.726404" rotX="0" rotY="0" rotZ="317.991461706048" model="671" id="object255" />
+  <object posX="221.471130" posY="538.088318" posZ="5.769355" rotX="0" rotY="0" rotZ="0" model="672" id="object256" />
+  <object posX="227.372375" posY="503.853577" posZ="3.263288" rotX="0" rotY="0" rotZ="0" model="673" id="object257" />
+  <object posX="217.499542" posY="516.714722" posZ="-3.351595" rotX="0" rotY="0" rotZ="146.249998221441" model="683" id="object258" />
+  <object posX="220.552032" posY="496.231354" posZ="-10.383814" rotX="0" rotY="0" rotZ="33.7500216264016" model="689" id="object259" />
+  <object posX="222.120819" posY="513.094482" posZ="3.779105" rotX="0" rotY="0" rotZ="-33.7500216264016" model="691" id="object260" />
+  <object posX="218.102371" posY="565.711304" posZ="-24.740461" rotX="0" rotY="0" rotZ="0" model="693" id="object261" />
+  <object posX="257.206543" posY="586.397644" posZ="9.754082" rotX="0" rotY="0" rotZ="0" model="700" id="object262" />
+  <object posX="306.442200" posY="598.838257" posZ="10.714731" rotX="0" rotY="0" rotZ="0" model="700" id="object263" />
+  <object posX="356.878265" posY="603.679749" posZ="16.331991" rotX="0" rotY="0" rotZ="0" model="700" id="object264" />
+  <object posX="376.782166" posY="623.850952" posZ="20.129971" rotX="0" rotY="0" rotZ="0" model="700" id="object265" />
+  <object posX="385.169342" posY="645.506653" posZ="22.935019" rotX="0" rotY="0" rotZ="0" model="700" id="object266" />
+  <object posX="387.208862" posY="673.725952" posZ="27.122091" rotX="0" rotY="0" rotZ="0" model="700" id="object267" />
+  <object posX="345.862000" posY="674.421387" posZ="19.225962" rotX="0" rotY="0" rotZ="0" model="700" id="object268" />
+  <object posX="347.049347" posY="662.838135" posZ="19.633329" rotX="0" rotY="0" rotZ="0" model="700" id="object269" />
+  <object posX="342.814880" posY="645.465088" posZ="17.176176" rotX="0" rotY="0" rotZ="0" model="700" id="object270" />
+  <object posX="328.276031" posY="635.694458" posZ="13.956731" rotX="0" rotY="0" rotZ="0" model="700" id="object271" />
+  <object posX="305.224548" posY="639.254517" posZ="13.410064" rotX="0" rotY="0" rotZ="0" model="700" id="object272" />
+  <object posX="227.232330" posY="620.957520" posZ="14.466784" rotX="0" rotY="0" rotZ="0" model="700" id="object273" />
+  <object posX="218.358215" posY="598.269165" posZ="11.404958" rotX="0" rotY="0" rotZ="0" model="700" id="object274" />
+  <object posX="374.360077" posY="817.493591" posZ="27.865694" rotX="0" rotY="0" rotZ="0" model="700" id="object275" />
+  <object posX="336.402435" posY="808.536743" posZ="21.785200" rotX="0" rotY="0" rotZ="0" model="700" id="object276" />
+  <object posX="353.978485" posY="923.898071" posZ="35.224899" rotX="0" rotY="0" rotZ="0" model="700" id="object277" />
+  <object posX="321.425690" posY="903.799072" posZ="28.770672" rotX="0" rotY="0" rotZ="0" model="700" id="object278" />
+  <object posX="272.050110" posY="1041.104126" posZ="37.023872" rotX="0" rotY="0" rotZ="0" model="700" id="object279" />
+  <object posX="304.910461" posY="1058.796753" posZ="43.535141" rotX="0" rotY="0" rotZ="0" model="700" id="object280" />
+  <object posX="242.992065" posY="364.346985" posZ="8.340292" rotX="0" rotY="0" rotZ="12.1094630000899" model="3452" id="object281" />
+  <object posX="214.084076" posY="358.073639" posZ="8.324239" rotX="0" rotY="0" rotZ="12.1094630000899" model="3452" id="object282" />
+  <object posX="186.004211" posY="351.754852" posZ="8.289068" rotX="0" rotY="0" rotZ="12.9688996927862" model="3452" id="object283" />
+  <object posX="157.204407" posY="345.114532" posZ="8.275113" rotX="0" rotY="0" rotZ="12.9688996927862" model="3452" id="object284" />
+  <object posX="128.666351" posY="338.538818" posZ="8.266083" rotX="0" rotY="0" rotZ="12.9688996927862" model="3452" id="object285" />
+  <object posX="99.918243" posY="331.911194" posZ="8.291658" rotX="0" rotY="0" rotZ="12.9688996927862" model="3452" id="object286" />
+  <object posX="71.052834" posY="325.344604" posZ="8.378843" rotX="0" rotY="0" rotZ="12.9688996927862" model="3452" id="object287" />
+  <object posX="38.464287" posY="307.022766" posZ="8.204543" rotX="0" rotY="0" rotZ="46.7188640234083" model="3452" id="object288" />
+  <object posX="38.273495" posY="272.312103" posZ="8.254123" rotX="0" rotY="0" rotZ="112.49997659504" model="3452" id="object289" />
+  <object posX="91.135101" posY="271.880829" posZ="8.594159" rotX="0" rotY="0" rotZ="204.218888552243" model="3452" id="object290" />
+  <object posX="123.021103" posY="286.977417" posZ="8.547148" rotX="0" rotY="0" rotZ="208.516072015724" model="3452" id="object291" />
+  <object posX="149.045441" posY="301.098694" posZ="8.554485" rotX="0" rotY="0" rotZ="208.516072015724" model="3452" id="object292" />
+  <object posX="174.983078" posY="315.281403" posZ="8.508942" rotX="0" rotY="0" rotZ="208.516129311504" model="3452" id="object293" />
+  <object posX="200.889038" posY="329.375153" posZ="8.489906" rotX="0" rotY="0" rotZ="208.516129311504" model="3452" id="object294" />
+  <object posX="291.516937" posY="236.269363" posZ="8.066199" rotX="0" rotY="-0.859379396916722" rotZ="-262.359952700482" model="3666" id="object295" />
+  <object posX="290.021484" posY="236.060318" posZ="7.989279" rotX="0" rotY="-4.29718346348117" rotZ="-262.128191272352" model="3666" id="object296" />
+  <object posX="-6.889319" posY="137.954819" posZ="5.234137" rotX="3.43774677078494" rotY="-1.71887338539247" rotZ="168.749993540449" model="973" id="object297" />
+  <object posX="-11.211836" posY="139.332443" posZ="5.384138" rotX="3.43774677078494" rotY="-1.71887338539247" rotZ="162.733879395796" model="973" id="object298" />
+  <object posX="114.843025" posY="896.974670" posZ="40.774075" rotX="-0.859436692696235" rotY="0.859436692696235" rotZ="-12.1094630000899" model="8656" id="object299" />
+  <object posX="120.943871" posY="926.896606" posZ="40.314152" rotX="-0.859436692696235" rotY="0.859436692696235" rotZ="-10.3905896146975" model="8656" id="object300" />
+  <object posX="127.084137" posY="955.996277" posZ="39.878895" rotX="-0.859436692696235" rotY="0.859436692696235" rotZ="-12.9688996927862" model="8656" id="object301" />
+  <object posX="110.239296" posY="872.559753" posZ="42.977879" rotX="0.859436692696235" rotY="0.859436692696235" rotZ="-10.3905896146975" model="8656" id="object302" />
+  <object posX="115.992165" posY="902.526917" posZ="42.966263" rotX="-0.859436692696235" rotY="0.859436692696235" rotZ="-11.2500263073937" model="8656" id="object303" />
+  <object posX="109.435364" posY="869.677795" posZ="45.260696" rotX="0.859436692696235" rotY="0.859436692696235" rotZ="-11.2500263073937" model="8656" id="object304" />
+  <object posX="115.373230" posY="899.454712" posZ="45.268864" rotX="-0.859436692696235" rotY="0.859436692696235" rotZ="-11.2500263073937" model="8656" id="object305" />
+  <object posX="121.901863" posY="932.229309" posZ="42.474106" rotX="-0.859436692696235" rotY="0.859436692696235" rotZ="-11.2500263073937" model="8656" id="object306" />
+  <object posX="111.238602" posY="876.278870" posZ="47.565647" rotX="0.859436692696235" rotY="0.859436692696235" rotZ="-11.2500263073937" model="8656" id="object307" />
+  <object posX="223.577133" posY="1054.767334" posZ="35.392021" rotX="0" rotY="0" rotZ="0" model="700" id="object308" />
+  <object posX="219.195740" posY="1095.372681" posZ="43.874481" rotX="0" rotY="0" rotZ="0" model="700" id="object309" />
+  <object posX="162.111130" posY="1015.596741" posZ="37.776070" rotX="0" rotY="0" rotZ="0" model="700" id="object310" />
+  <object posX="130.609985" posY="1040.333496" posZ="42.991623" rotX="0" rotY="0" rotZ="0" model="700" id="object311" />
+  <object posX="114.143677" posY="891.623047" posZ="46.641930" rotX="0" rotY="0" rotZ="0" model="700" id="object312" />
+  <object posX="118.258179" posY="914.829285" posZ="44.435356" rotX="0" rotY="0" rotZ="0" model="700" id="object313" />
+  <object posX="124.585014" posY="946.690979" posZ="43.820068" rotX="0" rotY="0" rotZ="0" model="700" id="object314" />
+  <object posX="130.442307" posY="971.285339" posZ="39.251350" rotX="0" rotY="0" rotZ="0" model="700" id="object315" />
+  <object posX="135.752243" posY="983.580261" posZ="38.196205" rotX="0" rotY="0" rotZ="0" model="700" id="object316" />
+  <object posX="87.996544" posY="960.380737" posZ="41.519806" rotX="0" rotY="0" rotZ="0" model="700" id="object317" />
+  <object posX="59.611652" posY="829.014526" posZ="42.340256" rotX="0" rotY="0" rotZ="0" model="700" id="object318" />
+  <object posX="94.498901" posY="742.410828" posZ="29.435417" rotX="0" rotY="0" rotZ="60.1605684887364" model="700" id="object319" />
+  <object posX="94.479294" posY="745.973633" posZ="29.784880" rotX="0" rotY="0" rotZ="197.670496615914" model="700" id="object320" />
+  <object posX="94.428566" posY="749.583618" posZ="30.645657" rotX="0" rotY="0" rotZ="-94.5380361965858" model="700" id="object321" />
+  <object posX="94.412018" posY="754.120422" posZ="31.129152" rotX="0" rotY="0" rotZ="137.509928127177" model="700" id="object322" />
+  <object posX="93.722855" posY="767.929871" posZ="31.697550" rotX="0" rotY="0" rotZ="-391.043465993669" model="700" id="object323" />
+  <object posX="94.030609" posY="777.393738" posZ="33.633430" rotX="0" rotY="0" rotZ="-270.722615495093" model="700" id="object324" />
+  <object posX="93.633896" posY="786.829590" posZ="35.160652" rotX="0" rotY="0" rotZ="-571.524713093642" model="700" id="object325" />
+  <object posX="93.169678" posY="794.833740" posZ="36.836441" rotX="0" rotY="0" rotZ="-511.364316492244" model="700" id="object326" />
+  <object posX="51.328045" posY="686.803711" posZ="21.879084" rotX="0" rotY="0" rotZ="137.509928127177" model="700" id="object327" />
+  <object posX="92.594162" posY="706.287964" posZ="25.707693" rotX="0" rotY="0" rotZ="137.509928127177" model="700" id="object328" />
+  <object posX="264.764771" posY="568.672424" posZ="1.090913" rotX="0" rotY="0" rotZ="-22.4999953190079" model="689" id="object329" />
+  <object posX="263.508179" posY="544.638062" posZ="-0.031989" rotX="0" rotY="0" rotZ="-118.602206296301" model="615" id="object330" />
+  <object posX="264.251038" posY="532.341248" posZ="4.677405" rotX="0" rotY="0" rotZ="0" model="654" id="object331" />
+  <object posX="265.066315" posY="524.039551" posZ="6.433108" rotX="0" rotY="0" rotZ="-103.132403123548" model="672" id="object332" />
+  <object posX="265.281219" posY="515.805847" posZ="5.265943" rotX="0" rotY="0" rotZ="-33.7500216264016" model="654" id="object333" />
+  <object posX="265.873627" posY="508.951721" posZ="1.266486" rotX="0" rotY="0" rotZ="-180.481762761989" model="656" id="object334" />
+  <object posX="266.323730" posY="498.880035" posZ="5.127569" rotX="0" rotY="0" rotZ="163.293028908064" model="671" id="object335" />
+  <object posX="268.144440" posY="486.042694" posZ="4.725311" rotX="0" rotY="0" rotZ="-78.7500122644175" model="617" id="object336" />
+  <object posX="269.088806" posY="478.085083" posZ="4.913858" rotX="0" rotY="0" rotZ="-89.9999812760317" model="655" id="object337" />
+  <object posX="260.970245" posY="386.730103" posZ="-3.365315" rotX="0" rotY="0" rotZ="-118.602206296301" model="615" id="object338" />
+  <object posX="270.692688" posY="405.593231" posZ="-3.055625" rotX="0" rotY="0" rotZ="-51.1022203392772" model="615" id="object339" />
+  <object posX="274.130920" posY="430.015747" posZ="-1.368797" rotX="0" rotY="0" rotZ="16.3977656177466" model="615" id="object340" />
+  <object posX="270.740570" posY="461.764526" posZ="-1.404135" rotX="0" rotY="0" rotZ="16.3977656177466" model="615" id="object341" />
+  <object posX="272.708679" posY="445.386902" posZ="-2.708476" rotX="0" rotY="0" rotZ="0" model="656" id="object342" />
+  <object posX="275.246063" posY="417.711670" posZ="-1.418496" rotX="0" rotY="0" rotZ="78.2087390353574" model="656" id="object343" />
+  <object posX="264.071503" posY="390.744720" posZ="-1.623622" rotX="0" rotY="0" rotZ="78.2087390353574" model="656" id="object344" />
+  <object posX="251.687119" posY="377.460724" posZ="-1.683312" rotX="0" rotY="0" rotZ="78.2087390353574" model="656" id="object345" />
+  <object posX="54.798489" posY="179.629303" posZ="75.952187" rotX="0" rotY="0" rotZ="11.2500263073937" model="4602" id="object346" />
+  <object posX="7.100484" posY="162.102905" posZ="15.529814" rotX="0" rotY="0" rotZ="278.67171735318" model="4141" id="object347" />
+  <object posX="-116.807457" posY="205.146362" posZ="6.233025" rotX="0" rotY="-6.01605684887364" rotZ="-147.504947680116" model="8355" id="object348" />
+  <object posX="286.130524" posY="602.877014" posZ="8.596184" rotX="0" rotY="0" rotZ="200.31727515052" model="16317" id="object349" />
+  <object posX="281.254791" posY="604.087280" posZ="8.336596" rotX="0" rotY="0" rotZ="213.208940132523" model="16317" id="object350" />
+  <object posX="273.890076" posY="606.570557" posZ="8.203701" rotX="-1.71887338539247" rotY="0" rotZ="139.529203284557" model="16317" id="object351" />
+  <object posX="273.208984" posY="602.227844" posZ="8.587126" rotX="0" rotY="-12.0321136977473" rotZ="154.766786662943" model="16317" id="object352" />
+  <object posX="267.654114" posY="604.974792" posZ="10.896280" rotX="0" rotY="0" rotZ="0" model="854" id="object353" />
+  <object posX="76.482613" posY="904.522278" posZ="43.688122" rotX="0" rotY="0.859436692696235" rotZ="167.890614143532" model="8185" id="object354" />
+  <object posX="75.241341" posY="904.768677" posZ="47.285057" rotX="0" rotY="38.6746511713306" rotZ="167.890614143532" model="8185" id="object355" />
+  <object posX="218.530106" posY="589.060669" posZ="12.801336" rotX="-6.01605684887364" rotY="-4.29718346348117" rotZ="-180.704757935854" model="8650" id="object356" />
+  <object posX="220.534225" posY="559.008179" posZ="9.696107" rotX="-4.29718346348117" rotY="-3.43774677078494" rotZ="-171.105365740452" model="8656" id="object357" />
+  <object posX="271.060455" posY="601.650269" posZ="8.492974" rotX="0" rotY="-12.0321136977473" rotZ="251.02381083648" model="16317" id="object358" />
+  <object posX="262.688660" posY="598.075562" posZ="7.525428" rotX="1.71887338539247" rotY="-12.0321136977473" rotZ="347.279860981766" model="16317" id="object359" />
+  <object posX="269.318787" posY="600.583740" posZ="8.390040" rotX="7.73493023426611" rotY="-0.859436692696235" rotZ="270.403535298985" model="16317" id="object360" />
+  <object posX="227.083374" posY="1007.258179" posZ="35.384834" rotX="0" rotY="0" rotZ="146.249998221441" model="6866" id="object361" />
+  <object posX="218.570053" posY="200.024048" posZ="4.704398" rotX="0" rotY="0" rotZ="102.186850874244" model="8355" id="object362" />
+  <object posX="214.033234" posY="277.572235" posZ="4.936544" rotX="0" rotY="0" rotZ="7.73493023426611" model="973" id="object363" />
+  <object posX="88.460815" posY="165.951157" posZ="4.736215" rotX="0" rotY="0" rotZ="1.71887338539247" model="8357" id="object364" />
+  <object posX="247.757385" posY="211.522186" posZ="5.119617" rotX="0" rotY="0" rotZ="-134.999971914047" model="979" id="object365" />
+  <object posX="251.119354" posY="219.386337" posZ="5.044618" rotX="0" rotY="0" rotZ="-89.9999812760317" model="979" id="object366" />
+  <object posX="55.672554" posY="474.489899" posZ="16.054718" rotX="0" rotY="0" rotZ="0" model="615" id="object367" />
+  <object posX="33.895134" posY="561.849976" posZ="16.331387" rotX="0" rotY="0" rotZ="-67.4999859570237" model="616" id="object368" />
+  <object posX="95.017166" posY="763.763428" posZ="31.055788" rotX="0" rotY="0" rotZ="-67.4999859570237" model="616" id="object369" />
+  <object posX="86.768852" posY="661.285461" posZ="23.059963" rotX="0" rotY="0" rotZ="-67.4999859570237" model="616" id="object370" />
+  <object posX="55.224083" posY="815.996948" posZ="28.485481" rotX="0" rotY="0" rotZ="0" model="616" id="object371" />
+  <object posX="100.325523" posY="995.697266" posZ="38.938076" rotX="0" rotY="0" rotZ="157.499967233055" model="616" id="object372" />
+  <object posX="170.304413" posY="1077.444580" posZ="28.432819" rotX="0" rotY="0" rotZ="56.24995964963" model="616" id="object373" />
+  <object posX="290.235321" posY="1079.024048" posZ="36.021118" rotX="0" rotY="0" rotZ="11.2500263073937" model="616" id="object374" />
+  <object posX="232.219589" posY="1046.679688" posZ="15.004990" rotX="0" rotY="0" rotZ="11.2500263073937" model="616" id="object375" />
+  <object posX="288.339508" posY="982.922607" posZ="14.023691" rotX="0" rotY="0" rotZ="-22.4999380232284" model="616" id="object376" />
+  <object posX="279.527130" posY="994.615051" posZ="17.243490" rotX="0" rotY="0" rotZ="67.5000432528033" model="616" id="object377" />
+  <object posX="314.185272" posY="918.844299" posZ="16.693487" rotX="0" rotY="0" rotZ="157.500024528835" model="616" id="object378" />
+  <object posX="339.036987" posY="970.185608" posZ="21.079983" rotX="0" rotY="0" rotZ="326.250075365064" model="616" id="object379" />
+  <object posX="320.588898" posY="886.132019" posZ="19.392855" rotX="0" rotY="0" rotZ="-22.4999953190079" model="617" id="object380" />
+  <object posX="369.220612" posY="847.594604" posZ="25.928347" rotX="0" rotY="0" rotZ="11.2500263073937" model="617" id="object381" />
+  <object posX="363.482117" posY="876.545349" posZ="28.557495" rotX="0" rotY="0" rotZ="-78.7500122644175" model="617" id="object382" />
+  <object posX="46.212791" posY="603.101318" posZ="18.611740" rotX="0" rotY="0" rotZ="0" model="617" id="object383" />
+  <object posX="94.078918" posY="721.900146" posZ="19.058559" rotX="0" rotY="0" rotZ="-67.4999859570237" model="617" id="object384" />
+  <object posX="143.305405" posY="1054.127075" posZ="34.236782" rotX="0" rotY="0" rotZ="0" model="664" id="object385" />
+  <object posX="195.864639" posY="1095.064697" posZ="31.375324" rotX="0" rotY="0" rotZ="56.2500169454095" model="664" id="object386" />
+  <object posX="254.094574" posY="1091.514160" posZ="37.727951" rotX="0" rotY="0" rotZ="56.2500169454095" model="664" id="object387" />
+  <object posX="323.700653" posY="1016.839233" posZ="27.986912" rotX="0" rotY="0" rotZ="56.2500169454095" model="664" id="object388" />
+  <object posX="147.758530" posY="247.398071" posZ="4.929503" rotX="0" rotY="0" rotZ="116.883275615129" model="8656" id="object389" />
+  <object posX="168.759674" posY="258.908783" posZ="4.929509" rotX="0" rotY="0" rotZ="122.899389759782" model="8656" id="object390" />
+  <object posX="34.584427" posY="148.071960" posZ="4.685966" rotX="0" rotY="0" rotZ="0" model="16777" id="object391" />
+  <object posX="264.165710" posY="194.665375" posZ="7.178266" rotX="0" rotY="0" rotZ="56.2500169454095" model="11417" id="object392" />
+  <object posX="266.913879" posY="196.292374" posZ="7.228247" rotX="0" rotY="0" rotZ="56.2500169454095" model="11417" id="object393" />
+  <object posX="269.537781" posY="197.555695" posZ="7.353247" rotX="0" rotY="0" rotZ="56.2500169454095" model="11417" id="object394" />
+  <object posX="271.382385" posY="198.274323" posZ="6.370139" rotX="0" rotY="0" rotZ="0" model="3877" id="object395" />
+  <object posX="305.104553" posY="238.143021" posZ="13.005512" rotX="85.0842898727068" rotY="0" rotZ="-168.604290373147" model="3877" id="object396" />
+  <object posX="305.102325" posY="238.386414" posZ="10.660931" rotX="85.0842898727068" rotY="0" rotZ="-168.604290373147" model="3877" id="object397" />
+  <object posX="305.019989" posY="238.457443" posZ="8.115078" rotX="85.0842898727068" rotY="0" rotZ="-168.604290373147" model="3877" id="object398" />
+  <object posX="302.453369" posY="237.881805" posZ="13.029259" rotX="85.0842898727068" rotY="0" rotZ="-168.604290373147" model="3877" id="object399" />
+  <object posX="302.405762" posY="237.893188" posZ="10.761585" rotX="85.0842898727068" rotY="0" rotZ="-168.604290373147" model="3877" id="object400" />
+  <object posX="298.572021" posY="237.018051" posZ="13.199669" rotX="85.0842898727068" rotY="0" rotZ="-168.604290373147" model="3877" id="object401" />
+  <object posX="298.521973" posY="237.043228" posZ="10.974680" rotX="85.0842898727068" rotY="0" rotZ="-168.604290373147" model="3877" id="object402" />
+  <object posX="298.621948" posY="237.192886" posZ="8.024679" rotX="85.0842898727068" rotY="0" rotZ="-168.604290373147" model="3877" id="object403" />
+  <object posX="293.165710" posY="236.015778" posZ="11.040157" rotX="85.0842898727068" rotY="0" rotZ="-168.604290373147" model="3877" id="object404" />
+  <object posX="293.124512" posY="236.007370" posZ="13.128580" rotX="85.0842898727068" rotY="0" rotZ="-168.604290373147" model="3877" id="object405" />
+  <object posX="293.146057" posY="236.289169" posZ="8.158634" rotX="85.0842898727068" rotY="0" rotZ="-168.604290373147" model="3877" id="object406" />
+  <object posX="295.162720" posY="236.374451" posZ="13.125972" rotX="85.0842898727068" rotY="0" rotZ="-168.604290373147" model="3877" id="object407" />
+  <object posX="291.231079" posY="235.467453" posZ="13.052460" rotX="85.0842898727068" rotY="9.45380361965858" rotZ="-168.604290373147" model="3877" id="object408" />
+  <object posX="288.412506" posY="235.813232" posZ="7.981561" rotX="0" rotY="-0.859436692696235" rotZ="-262.128191272352" model="3666" id="object409" />
+  <object posX="288.401398" posY="235.806595" posZ="8.890158" rotX="0" rotY="0.859436692696235" rotZ="-262.128191272352" model="3666" id="object410" />
+  <object posX="288.385376" posY="235.951324" posZ="7.131557" rotX="0" rotY="-12.891493094664" rotZ="-262.128191272352" model="3666" id="object411" />
+  <object posX="286.924988" posY="235.515411" posZ="7.935403" rotX="0" rotY="-5.15662015617741" rotZ="-262.128191272352" model="3666" id="object412" />
+  <object posX="231.028351" posY="212.486389" posZ="17.690079" rotX="0" rotY="0" rotZ="-123.749945606654" model="10763" id="object413" />
+  <object posX="88.912880" posY="140.923691" posZ="7.578599" rotX="0" rotY="0" rotZ="1.71887338539247" model="1540" id="object414" />
+  <object posX="256.153381" posY="201.905136" posZ="8.854750" rotX="0" rotY="0" rotZ="-247.499948509087" model="8406" id="object415" />
+  <object posX="272.242523" posY="198.729797" posZ="5.220135" rotX="0" rotY="0" rotZ="0" model="3877" id="object416" />
+  <object posX="273.019653" posY="199.485428" posZ="4.320131" rotX="0" rotY="0" rotZ="0" model="3877" id="object417" />
+  <object posX="265.685669" posY="196.359497" posZ="5.468730" rotX="1.71887338539247" rotY="-0.859436692696235" rotZ="28.5934014702242" model="978" id="object418" />
+  <object posX="273.820526" posY="200.298737" posZ="4.211631" rotX="1.71887338539247" rotY="16.3292971612285" rotZ="21.7179079286543" model="978" id="object419" />
+  <object posX="250.656372" posY="228.634460" posZ="5.094769" rotX="1.71887338539247" rotY="0.859436692696235" rotZ="-83.9928052729826" model="978" id="object420" />
+  <object posX="252.646515" posY="222.159134" posZ="17.918001" rotX="0" rotY="0" rotZ="146.249940925662" model="10236" id="object421" />
+  <object posX="197.717224" posY="187.076584" posZ="3.423485" rotX="0" rotY="0" rotZ="101.250007583425" model="14562" id="object422" />
+  <object posX="90.209915" posY="141.176895" posZ="10.329126" rotX="0" rotY="0" rotZ="21.6405586263117" model="4729" id="object423" />
+  <object posX="87.790115" posY="123.670570" posZ="11.369245" rotX="0" rotY="0" rotZ="263.98400157078" model="4730" id="object424" />
+  <object posX="326.682556" posY="654.240967" posZ="22.680655" rotX="0" rotY="0" rotZ="56.2500169454095" model="3873" id="object425" />
+  <object posX="277.979767" posY="843.562988" posZ="41.257973" rotX="-1.71887338539247" rotY="0" rotZ="263.201971476206" model="4101" id="object426" />
+  <object posX="291.309723" posY="966.125488" posZ="34.681019" rotX="0" rotY="0" rotZ="0" model="762" id="object427" />
+  <object posX="293.393494" posY="958.623718" posZ="38.208084" rotX="0" rotY="0" rotZ="0" model="762" id="object428" />
+  <object posX="156.443420" posY="997.711182" posZ="39.665619" rotX="0" rotY="0" rotZ="-42.1123979421155" model="762" id="object429" />
+  <object posX="121.110725" posY="922.941895" posZ="48.957977" rotX="0" rotY="0" rotZ="-42.1123979421155" model="762" id="object430" />
+  <object posX="-75.750710" posY="191.052017" posZ="9.974325" rotX="0" rotY="0" rotZ="0" model="762" id="object431" />
+  <object posX="-92.660072" posY="214.634247" posZ="10.790203" rotX="0" rotY="0" rotZ="-72.1926821864837" model="762" id="object432" />
+  <object posX="-102.448517" posY="238.405060" posZ="11.136661" rotX="0" rotY="0" rotZ="-72.1926821864837" model="762" id="object433" />
+  <object posX="-107.750923" posY="261.433594" posZ="10.488515" rotX="0" rotY="21.4859173174059" rotZ="-145.244858361443" model="762" id="object434" />
+  <object posX="-115.137367" posY="292.994751" posZ="15.737633" rotX="0" rotY="-12.8915503904435" rotZ="-196.811059923217" model="762" id="object435" />
+  <object posX="67.366623" posY="515.756470" posZ="30.126816" rotX="0" rotY="0" rotZ="44.9999906380158" model="762" id="object436" />
+  <object posX="74.506035" posY="541.070557" posZ="29.208801" rotX="0" rotY="0" rotZ="-42.9718346348117" model="762" id="object437" />
+  <object posX="63.587357" posY="864.015747" posZ="49.643364" rotX="0" rotY="0" rotZ="-42.9718346348117" model="762" id="object438" />
+  <object posX="81.122314" posY="924.766052" posZ="50.456535" rotX="-30.0802842443682" rotY="0" rotZ="272.750714202518" model="762" id="object439" />
+  <object posX="111.152443" posY="1011.097290" posZ="46.053673" rotX="0" rotY="21.4859173174059" rotZ="-79.6183298029382" model="762" id="object440" />
+  <object posX="367.659332" posY="888.401428" posZ="34.987640" rotX="0" rotY="0" rotZ="0" model="762" id="object441" />
+  <object posX="319.085785" posY="877.082336" posZ="28.778469" rotX="0" rotY="0" rotZ="0" model="762" id="object442" />
+  <object posX="337.000824" posY="810.482056" posZ="27.552284" rotX="0" rotY="0" rotZ="0" model="762" id="object443" />
+  <object posX="338.480042" posY="797.177917" posZ="27.126469" rotX="0" rotY="0" rotZ="-44.9999906380158" model="762" id="object444" />
+  <object posX="333.937592" posY="788.305481" posZ="22.674255" rotX="0" rotY="0" rotZ="-44.9999906380158" model="762" id="object445" />
+  <object posX="317.485138" posY="1047.489746" posZ="47.127304" rotX="0" rotY="0" rotZ="-44.9999906380158" model="762" id="object446" />
+  <object posX="339.734558" posY="760.540710" posZ="19.669710" rotX="0" rotY="0" rotZ="67.4999859570237" model="615" id="object447" />
+  <object posX="377.886017" posY="789.822632" posZ="27.452848" rotX="0" rotY="0" rotZ="112.49997659504" model="615" id="object448" />
+  <object posX="385.111481" posY="709.901489" posZ="24.941669" rotX="0" rotY="0" rotZ="168.74993624467" model="615" id="object449" />
+  <object posX="282.426819" posY="601.015747" posZ="15.663481" rotX="0" rotY="0" rotZ="0" model="762" id="object450" />
+  <object posX="328.411804" posY="725.625427" posZ="9.177601" rotX="0" rotY="0" rotZ="64.4577519522176" model="689" id="object451" />
+  <object posX="383.652008" posY="740.061218" posZ="5.576483" rotX="0" rotY="0" rotZ="0" model="697" id="object452" />
+  <object posX="44.445332" posY="160.103271" posZ="7.389492" rotX="0.859436692696235" rotY="-6.01605684887364" rotZ="99.2991435867845" model="6052" id="object453" />
+  <object posX="50.107933" posY="153.674988" posZ="5.889059" rotX="0" rotY="0.859436692696235" rotZ="-150.624416395706" model="979" id="object454" />
+  <object posX="35.052372" posY="145.086517" posZ="5.807073" rotX="0" rotY="0" rotZ="-149.76497970301" model="979" id="object455" />
+  <object posX="68.197174" posY="161.686188" posZ="5.948287" rotX="0" rotY="0.859436692696235" rotZ="-154.921657154967" model="979" id="object456" />
+  <object posX="27.533773" posY="159.267975" posZ="4.691852" rotX="0" rotY="0" rotZ="98.6716975053367" model="967" id="object457" />
+  <object posX="27.304546" posY="160.807968" posZ="4.691852" rotX="0" rotY="0" rotZ="98.6716975053367" model="967" id="object458" />
+  <object posX="240.037598" posY="244.479019" posZ="7.095031" rotX="0" rotY="0" rotZ="-78.4406723508263" model="3452" id="object459" />
+  <object posX="274.051453" posY="200.639999" posZ="5.289024" rotX="0" rotY="0" rotZ="-191.249988859457" model="1319" id="object460" />
+  <object posX="274.920105" posY="201.930847" posZ="5.251273" rotX="0" rotY="0" rotZ="-191.249988859457" model="1319" id="object461" />
+  <object posX="275.561401" posY="203.279602" posZ="5.251273" rotX="0" rotY="0" rotZ="-191.249988859457" model="1319" id="object462" />
+  <object posX="117.788872" posY="1016.903076" posZ="35.555897" rotX="2.5783100780887" rotY="0" rotZ="168.749993540449" model="8355" id="object463" />
+  <object posX="151.174240" posY="1054.000366" posZ="37.609047" rotX="0.859436692696235" rotY="-3.43774677078494" rotZ="154.99894916153" model="8355" id="object464" />
+  <object posX="-19.331774" posY="499.064270" posZ="25.638298" rotX="0" rotY="0" rotZ="-39.5340878640268" model="4028" id="object465" />
+  <racepickup posX="225.411942" posY="196.263077" posZ="6.160777" type="repair" id="pickup0" />
+  <racepickup posX="226.390350" posY="192.165558" posZ="6.160777" type="repair" id="pickup1" />
+  <racepickup posX="98.339470" posY="148.286163" posZ="6.220590" type="nitro" id="pickup2" />
+  <racepickup posX="219.532333" posY="190.276001" posZ="6.204398" type="repair" id="pickup3" />
+  <racepickup posX="218.516357" posY="194.986664" posZ="6.204398" type="repair" id="pickup4" />
+  <racepickup posX="100.286217" posY="140.430695" posZ="6.220590" type="nitro" id="pickup5" />
+  <racepickup posX="102.387047" posY="131.897614" posZ="6.220590" type="nitro" id="pickup6" />
+  <racepickup posX="104.322693" posY="123.827965" posZ="6.220594" type="nitro" id="pickup7" />
+  <racepickup posX="353.838654" posY="864.544861" posZ="29.323114" type="nitro" id="pickup8" />
+  <racepickup posX="339.254150" posY="861.186157" posZ="27.248260" type="nitro" id="pickup9" />
+  <racepickup posX="346.824615" posY="862.867310" posZ="28.320059" type="nitro" id="pickup10" />
+</map>

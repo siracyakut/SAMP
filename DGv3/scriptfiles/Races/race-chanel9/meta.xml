@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<meta>
+  <info type="map" gamemodes="race" name="[RACE] chanel9" author="msd" description="custom raceway" />
+  <map src="chanel9.map" />
+  <settings>
+    <setting name="#time" value="2:0" />
+    <setting name="#weather" value="6" />
+    <setting name="#respawn" value="timelimit" />
+    <setting name="#duration" value="240" />
+  </settings>
+</meta>

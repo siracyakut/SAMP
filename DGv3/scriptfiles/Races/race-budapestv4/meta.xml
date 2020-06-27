@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<meta>
+  <info type="map" gamemodes="race" name="[RACE] Budapest v4" author="msd wurst" description="custom raceway" />
+  <map src="Budapest v4.map" />
+  <settings>
+    <setting name="#time" value="3:0" />
+    <setting name="#respawn" value="timelimit" />
+    <setting name="#duration" value="600" />
+  </settings>
+</meta>

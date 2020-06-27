@@ -1,0 +1,167 @@
+<map edf:definitions="editor_main">
+	<object id="convertFFS (0)" model="5299" posX="5540.3000000" posY="5545.0000000" posZ="-23.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (1)" model="3243" posX="5540.3000000" posY="5545.1000000" posZ="-0.6000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (2)" model="3873" posX="5427.9000000" posY="5441.9000000" posZ="0.0000000" rotX="0.0000000" rotY="8.0000000" rotZ="260.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (3)" model="8493" posX="5564.5000000" posY="5508.3000000" posZ="15.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (4)" model="8882" posX="5601.9000000" posY="5593.6000000" posZ="-10.8000000" rotX="0.0000000" rotY="0.0000000" rotZ="312.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (5)" model="9076" posX="5431.3000000" posY="5549.2000000" posZ="-5.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="174.5000000" dimension="0" interior="0" />
+	<object id="convertFFS (6)" model="8493" posX="5511.7000000" posY="5481.3000000" posZ="15.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="176.7500000" dimension="0" interior="0" />
+	<object id="convertFFS (7)" model="1327" posX="5517.5000000" posY="5487.8000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (8)" model="1327" posX="5517.8000000" posY="5489.9000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.7500000" dimension="0" interior="0" />
+	<object id="convertFFS (9)" model="1327" posX="5518.0000000" posY="5492.1000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.7500000" dimension="0" interior="0" />
+	<object id="convertFFS (10)" model="1327" posX="5518.3000000" posY="5495.4000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.7500000" dimension="0" interior="0" />
+	<object id="convertFFS (11)" model="1327" posX="5518.5000000" posY="5499.0000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.7500000" dimension="0" interior="0" />
+	<object id="convertFFS (12)" model="1327" posX="5559.6000000" posY="5501.8000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.7500000" dimension="0" interior="0" />
+	<object id="convertFFS (13)" model="1327" posX="5559.4000000" posY="5498.5000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.7500000" dimension="0" interior="0" />
+	<object id="convertFFS (14)" model="1327" posX="5559.4000000" posY="5494.5000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.7500000" dimension="0" interior="0" />
+	<object id="convertFFS (15)" model="1327" posX="5559.1000000" posY="5490.9000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.7500000" dimension="0" interior="0" />
+	<object id="convertFFS (16)" model="1327" posX="5558.6000000" posY="5484.9000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.7500000" dimension="0" interior="0" />
+	<object id="convertFFS (17)" model="1327" posX="5558.9000000" posY="5488.3000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.7500000" dimension="0" interior="0" />
+	<object id="convertFFS (18)" model="3790" posX="5559.1000000" posY="5502.0000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (19)" model="3790" posX="5558.3000000" posY="5498.3000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (20)" model="3790" posX="5558.6000000" posY="5494.5000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (21)" model="3790" posX="5558.3000000" posY="5490.8000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (22)" model="3790" posX="5557.9000000" posY="5488.3000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (23)" model="3790" posX="5558.0000000" posY="5484.9000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (24)" model="3790" posX="5518.6000000" posY="5487.5000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="174.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (25)" model="3790" posX="5518.5000000" posY="5489.8000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="174.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (26)" model="3790" posX="5518.4000000" posY="5492.1000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="174.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (27)" model="3790" posX="5518.8000000" posY="5495.4000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="174.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (28)" model="3790" posX="5519.2000000" posY="5499.1000000" posZ="1.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="174.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (29)" model="3515" posX="5540.2000000" posY="5545.1000000" posZ="1.1000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (30)" model="3596" posX="5538.0000000" posY="5492.9000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.5000000" dimension="0" interior="0" />
+	<object id="convertFFS (31)" model="3596" posX="5538.8000000" posY="5520.4000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (32)" model="3596" posX="5537.2000000" posY="5465.7000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (33)" model="3596" posX="5514.7000000" posY="5546.1000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (34)" model="3596" posX="5487.3000000" posY="5547.2000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (35)" model="3596" posX="5459.9000000" posY="5548.3000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (36)" model="3596" posX="5540.3000000" posY="5567.5000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (37)" model="3596" posX="5541.0000000" posY="5594.9000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (38)" model="3596" posX="5541.7000000" posY="5622.3000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (39)" model="3596" posX="5561.8000000" posY="5544.5000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (40)" model="3596" posX="5589.1000000" posY="5543.4000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (41)" model="3596" posX="5616.5000000" posY="5542.3000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (42)" model="3596" posX="5511.5000000" posY="5444.3000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (43)" model="3596" posX="5484.1000000" posY="5445.4000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (44)" model="3596" posX="5456.7000000" posY="5446.5000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (45)" model="3596" posX="5558.6000000" posY="5442.6000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (46)" model="3596" posX="5585.9000000" posY="5441.6000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (47)" model="3596" posX="5613.4000000" posY="5440.5000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (48)" model="3596" posX="5564.6000000" posY="5646.3000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (49)" model="3596" posX="5592.1000000" posY="5645.2000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (50)" model="3596" posX="5619.5000000" posY="5644.1000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (51)" model="3596" posX="5517.6000000" posY="5648.0000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (52)" model="3596" posX="5490.3000000" posY="5649.1000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (53)" model="3596" posX="5462.9000000" posY="5650.2000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="267.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (54)" model="3873" posX="5435.5000000" posY="5658.3000000" posZ="0.0000000" rotX="0.0000000" rotY="8.0000000" rotZ="104.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (55)" model="8882" posX="5484.2000000" posY="5596.7000000" posZ="-10.8000000" rotX="0.0000000" rotY="0.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (56)" model="8882" posX="5484.2000000" posY="5596.7000000" posZ="-10.8000000" rotX="0.0000000" rotY="0.0000000" rotZ="217.9900000" dimension="0" interior="0" />
+	<object id="convertFFS (57)" model="3596" posX="5436.9000000" posY="5524.3000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (58)" model="3596" posX="5436.2000000" posY="5496.9000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (59)" model="3596" posX="5435.5000000" posY="5469.4000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (60)" model="8882" posX="5481.8000000" posY="5492.5000000" posZ="-10.8000000" rotX="0.0000000" rotY="0.0000000" rotZ="217.9900000" dimension="0" interior="0" />
+	<object id="convertFFS (61)" model="8882" posX="5601.2000000" posY="5475.7000000" posZ="-10.8000000" rotX="0.0000000" rotY="0.0000000" rotZ="309.9900000" dimension="0" interior="0" />
+	<object id="convertFFS (62)" model="8882" posX="5603.3000000" posY="5501.2000000" posZ="-10.8000000" rotX="0.0000000" rotY="0.0000000" rotZ="3.9900000" dimension="0" interior="0" />
+	<object id="convertFFS (63)" model="8882" posX="5465.6000000" posY="5488.6000000" posZ="-10.8000000" rotX="0.0000000" rotY="0.0000000" rotZ="157.9900000" dimension="0" interior="0" />
+	<object id="convertFFS (64)" model="3596" posX="5438.4000000" posY="5571.3000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (65)" model="3596" posX="5439.1000000" posY="5598.7000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (66)" model="3596" posX="5439.8000000" posY="5626.1000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (67)" model="9076" posX="5536.0000000" posY="5437.3000000" posZ="-5.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="269.7500000" dimension="0" interior="0" />
+	<object id="convertFFS (68)" model="9076" posX="5542.8000000" posY="5653.0000000" posZ="-5.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="87.9900000" dimension="0" interior="0" />
+	<object id="convertFFS (69)" model="3596" posX="5641.8000000" posY="5563.7000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (70)" model="3596" posX="5642.5000000" posY="5591.1000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (71)" model="3596" posX="5643.2000000" posY="5618.6000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (72)" model="3596" posX="5640.5000000" posY="5516.7000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (73)" model="3596" posX="5639.8000000" posY="5489.3000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (74)" model="3596" posX="5639.0000000" posY="5461.9000000" posZ="-4.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="358.4900000" dimension="0" interior="0" />
+	<object id="convertFFS (75)" model="3873" posX="5643.5000000" posY="5433.6000000" posZ="0.0000000" rotX="0.0000000" rotY="8.0000000" rotZ="304.0000000" dimension="0" interior="0" />
+	<object id="convertFFS (76)" model="3873" posX="5650.8000000" posY="5650.5000000" posZ="0.0000000" rotX="0.0000000" rotY="7.9900000" rotZ="11.9900000" dimension="0" interior="0" />
+	<object id="convertFFS (77)" model="9076" posX="5647.7000000" posY="5541.6000000" posZ="-5.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="355.7400000" dimension="0" interior="0" />
+	<object id="convertFFS (78)" model="8882" posX="5705.4000000" posY="5500.0000000" posZ="10.0000000" rotX="0.0000000" rotY="0.0000000" rotZ="3.9900000" dimension="0" interior="0" />
+	<object id="convertFFS (79)" model="8882" posX="5680.0000000" posY="5426.3000000" posZ="10.0000000" rotX="0.0000000" rotY="0.0000000" rotZ="45.9900000" dimension="0" interior="0" />
+	<object id="convertFFS (80)" model="8882" posX="5624.1000000" posY="5348.9000000" posZ="10.0000000" rotX="0.0000000" rotY="0.0000000" rotZ="45.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (81)" model="8882" posX="5548.9000000" posY="5348.8000000" posZ="10.0000000" rotX="0.0000000" rotY="0.0000000" rotZ="45.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (82)" model="8882" posX="5470.3000000" posY="5359.0000000" posZ="10.0000000" rotX="0.0000000" rotY="4.0000000" rotZ="137.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (83)" model="8882" posX="5486.4000000" posY="5277.8000000" posZ="10.0000000" rotX="0.0000000" rotY="4.0000000" rotZ="137.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (84)" model="8882" posX="5560.9000000" posY="5277.9000000" posZ="10.0000000" rotX="0.0000000" rotY="4.0000000" rotZ="137.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (85)" model="8882" posX="5673.0000000" posY="5334.7000000" posZ="10.0000000" rotX="0.0000000" rotY="4.0000000" rotZ="137.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (86)" model="8882" posX="5702.6000000" posY="5575.3000000" posZ="10.0000000" rotX="0.0000000" rotY="4.0000000" rotZ="137.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (87)" model="8882" posX="5752.3000000" posY="5459.2000000" posZ="10.0000000" rotX="0.0000000" rotY="4.0000000" rotZ="137.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (88)" model="8882" posX="5781.2000000" posY="5528.8000000" posZ="10.0000000" rotX="0.0000000" rotY="4.0000000" rotZ="137.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (89)" model="8882" posX="5781.5000000" posY="5596.8000000" posZ="10.0000000" rotX="0.0000000" rotY="4.0000000" rotZ="137.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (90)" model="8882" posX="5741.7000000" posY="5655.9000000" posZ="10.0000000" rotX="0.0000000" rotY="4.0000000" rotZ="137.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (91)" model="8882" posX="5718.9000000" posY="5692.8000000" posZ="10.0000000" rotX="0.0000000" rotY="4.0000000" rotZ="137.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (92)" model="8882" posX="5653.3000000" posY="5719.9000000" posZ="10.0000000" rotX="0.0000000" rotY="4.0000000" rotZ="137.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (93)" model="8882" posX="5592.6000000" posY="5712.6000000" posZ="10.0000000" rotX="0.0000000" rotY="4.0000000" rotZ="105.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (94)" model="8882" posX="5511.7000000" posY="5710.7000000" posZ="10.0000000" rotX="0.0000000" rotY="3.9900000" rotZ="105.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (95)" model="8882" posX="5514.8000000" posY="5743.3000000" posZ="10.0000000" rotX="0.0000000" rotY="11.9900000" rotZ="161.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (96)" model="8882" posX="5580.3000000" posY="5764.4000000" posZ="10.0000000" rotX="0.0000000" rotY="15.9900000" rotZ="161.9800000" dimension="0" interior="0" />
+	<object id="convertFFS (97)" model="8882" posX="5631.0000000" posY="5765.9000000" posZ="10.0000000" rotX="0.0000000" rotY="15.9900000" rotZ="233.9700000" dimension="0" interior="0" />
+	<object id="convertFFS (98)" model="8882" posX="5423.4000000" posY="5705.7000000" posZ="10.0000000" rotX="0.0000000" rotY="15.9800000" rotZ="291.9700000" dimension="0" interior="0" />
+	<object id="convertFFS (99)" model="8882" posX="5393.9000000" posY="5642.5000000" posZ="10.0000000" rotX="0.0000000" rotY="15.9800000" rotZ="335.9700000" dimension="0" interior="0" />
+	<object id="convertFFS (100)" model="8882" posX="5374.7000000" posY="5584.5000000" posZ="10.0000000" rotX="0.0000000" rotY="15.9700000" rotZ="13.9600000" dimension="0" interior="0" />
+	<object id="convertFFS (101)" model="8882" posX="5330.5000000" posY="5630.5000000" posZ="10.0000000" rotX="0.0000000" rotY="15.9700000" rotZ="347.9600000" dimension="0" interior="0" />
+	<object id="convertFFS (102)" model="8882" posX="5327.9000000" posY="5540.5000000" posZ="10.0000000" rotX="0.0000000" rotY="15.9600000" rotZ="11.9500000" dimension="0" interior="0" />
+	<object id="convertFFS (103)" model="8882" posX="5360.6000000" posY="5504.0000000" posZ="10.0000000" rotX="0.0000000" rotY="15.9600000" rotZ="11.9500000" dimension="0" interior="0" />
+	<object id="convertFFS (104)" model="8882" posX="5323.3000000" posY="5467.5000000" posZ="10.0000000" rotX="0.0000000" rotY="19.9600000" rotZ="41.9500000" dimension="0" interior="0" />
+	<object id="convertFFS (105)" model="8882" posX="5343.9000000" posY="5406.5000000" posZ="10.0000000" rotX="0.0000000" rotY="19.9600000" rotZ="15.9500000" dimension="0" interior="0" />
+	<object id="convertFFS (106)" model="8882" posX="5372.8000000" posY="5371.3000000" posZ="10.0000000" rotX="0.0000000" rotY="19.9600000" rotZ="41.9500000" dimension="0" interior="0" />
+	<object id="convertFFS (107)" model="8882" posX="5414.4000000" posY="5391.7000000" posZ="10.0000000" rotX="0.0000000" rotY="19.9500000" rotZ="69.9500000" dimension="0" interior="0" />
+	<object id="convertFFS (108)" model="8882" posX="5374.5000000" posY="5477.7000000" posZ="10.0000000" rotX="0.0000000" rotY="23.9500000" rotZ="35.9400000" dimension="0" interior="0" />
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5554.7705000" posY="5552.6289000" posZ="4.4559000" rotZ="269.7002000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5552.0601000" posY="5548.2109000" posZ="3.5505000" rotZ="268.1269000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5551.1357000" posY="5544.2056000" posZ="3.3719000" rotZ="266.2469000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5552.0415000" posY="5538.9961000" posZ="4.2022000" rotZ="272.8269000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5564.4663000" posY="5545.8174000" posZ="3.3719000" rotZ="276.6186000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5565.7388000" posY="5551.0112000" posZ="4.4092000" rotZ="276.5870000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5573.5640000" posY="5551.4219000" posZ="4.5912000" rotZ="266.5602000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5577.4170000" posY="5546.6172000" posZ="3.4051000" rotZ="253.0867000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5570.1099000" posY="5542.7095000" posZ="3.3719000" rotZ="270.0069000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5571.3975000" posY="5538.5972000" posZ="4.1093000" rotZ="263.4268000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5579.6489000" posY="5537.9102000" posZ="4.1955000" rotZ="263.4268000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5583.9941000" posY="5543.3862000" posZ="3.3719000" rotZ="263.7402000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5587.7583000" posY="5548.6577000" posZ="4.0301000" rotZ="263.7402000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5596.5938000" posY="5547.7988000" posZ="3.9097000" rotZ="265.3069000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5599.9561000" posY="5544.4512000" posZ="3.3719000" rotZ="265.3069000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5604.5220000" posY="5539.4819000" posZ="3.5394000" rotZ="265.3069000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5613.1484000" posY="5539.5898000" posZ="3.4251000" rotZ="270.9470000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5616.4766000" posY="5549.8618000" posZ="4.6274000" rotZ="266.5602000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5618.9834000" posY="5535.6309000" posZ="4.3764000" rotZ="264.6802000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5646.2412000" posY="5555.3320000" posZ="3.8896000" rotZ="354.2943000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5641.4775000" posY="5555.8252000" posZ="3.3719000" rotZ="2.4410000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5635.0674000" posY="5555.9639000" posZ="4.3675000" rotZ="350.2209000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5635.9336000" posY="5564.0542000" posZ="4.2016000" rotZ="355.5476000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5646.5020000" posY="5567.1250000" posZ="3.8771000" rotZ="351.7876000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5634.4380000" posY="5571.9766000" posZ="4.6411000" rotZ="357.4277000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5641.2778000" posY="5575.1934000" posZ="3.3719000" rotZ="4.9477000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5648.2656000" posY="5578.7705000" posZ="4.2542000" rotZ="1.1877000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5636.6201000" posY="5580.4536000" posZ="4.1311000" rotZ="1.1877000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5641.6216000" posY="5585.4448000" posZ="3.3719000" rotZ="347.7142000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5648.4316000" posY="5589.3247000" posZ="4.2258000" rotZ="356.5110000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5642.7090000" posY="5601.9414000" posZ="3.3719000" rotZ="355.2577000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5647.9463000" posY="5611.6274000" posZ="3.9579000" rotZ="355.5710000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5636.0864000" posY="5615.7144000" posZ="4.4944000" rotZ="2.4645000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5648.7168000" posY="5624.3892000" posZ="4.0691000" rotZ="354.6311000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5636.9946000" posY="5626.4839000" posZ="4.3456000" rotZ="187.6463000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5628.2183000" posY="5637.5845000" posZ="4.2745000" rotZ="78.9186000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5628.0288000" posY="5648.8589000" posZ="4.0112000" rotZ="82.6786000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5615.0195000" posY="5645.3501000" posZ="3.3719000" rotZ="92.7053000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5607.4380000" posY="5640.1255000" posZ="3.8354000" rotZ="79.5452000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5601.6240000" posY="5645.5005000" posZ="3.3719000" rotZ="74.5318000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5594.9111000" posY="5650.7695000" posZ="4.1594000" rotZ="88.3186000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5585.3809000" posY="5645.9619000" posZ="3.3719000" rotZ="87.3786000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5578.2949000" posY="5639.0430000" posZ="4.4134000" rotZ="82.0519000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5570.1362000" posY="5653.5679000" posZ="4.6167000" rotZ="91.7653000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5560.3481000" posY="5652.8110000" posZ="4.3171000" rotZ="261.5702000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5562.0239000" posY="5641.8579000" posZ="3.8590000" rotZ="269.4036000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5548.3945000" posY="5632.8164000" posZ="4.3378000" rotZ="170.7260000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5537.0352000" posY="5630.8398000" posZ="3.9597000" rotZ="179.8128000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5536.0747000" posY="5617.8350000" posZ="4.1061000" rotZ="173.2327000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5547.8403000" posY="5610.8193000" posZ="4.3439000" rotZ="176.9928000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5538.9570000" posY="5608.3042000" posZ="3.3719000" rotZ="171.9794000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5536.6074000" posY="5594.3052000" posZ="3.8215000" rotZ="174.1259000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5545.8530000" posY="5586.6382000" posZ="3.9939000" rotZ="162.8458000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5544.8149000" posY="5571.9663000" posZ="3.8223000" rotZ="177.5726000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5536.1543000" posY="5569.7588000" posZ="3.7865000" rotZ="182.2727000"></spawnpoint>
+	<spawnpoint id="spawnpoint (Infernus) (2)" vehicle="411" posX="5539.8481000" posY="5560.4644000" posZ="3.3719000" rotZ="349.5708000"></spawnpoint>
+</map>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<meta>
+  <info type="map" gamemodes="race" name="[RACE] Hockenheim Grand Prix" author="SKC-Wurstfinger" description="4 lap Race on the Hockenheim F1 Grand Prix track" />
+  <map src="Hockenheim Grand Prix.map" />
+  <settings>
+    <setting name="#time" value="19:0" />
+    <setting name="#respawn" value="timelimit" />
+    <setting name="#respawntime" value="4" />
+    <setting name="#duration" value="420" />
+  </settings>
+</meta>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<meta>
+  <info type="map" gamemodes="race" name="[RACE] Highway To Nowhere" author="[EFO]olegator" description="All loops, etc i create only with my own program." />
+  <map src="Highway To Nowhere.map" />
+  <settings>
+    <setting name="#time" value="21:0" />
+    <setting name="#respawn" value="timelimit" />
+    <setting name="#respawntime" value="4" />
+    <setting name="#duration" value="400" />
+  </settings>
+</meta>

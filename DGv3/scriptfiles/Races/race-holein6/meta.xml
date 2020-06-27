@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<meta>
+  <info type="map" gamemodes="race" name="[RACE] Hole In 6" author="Alan Smithee" description="Par 6 Golf course" />
+  <map src="Hole In 6.map" />
+  <settings>
+    <setting name="#weather" value="6" />
+    <setting name="#respawn" value="timelimit" />
+    <setting name="#respawntime" value="1" />
+  </settings>
+</meta>

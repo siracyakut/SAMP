@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<meta>
+  <script src="server.lua" type="server" />
+  <info type="map" gamemodes="race" name="[DD] Cross Boom" author="Crazy" />
+  <map src="[DD] Cross 35.map" />
+  <settings>
+    <setting name="#time" value="17:0" />
+    <setting name="#respawn" value="none" />
+    <setting name="#respawntime" value="0" />
+    <setting name="#duration" value="700" />
+  </settings>
+</meta>

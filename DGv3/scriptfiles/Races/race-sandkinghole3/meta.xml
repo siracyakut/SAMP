@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<meta>
+  <info type="map" gamemodes="race" name="[RACE] Sandking Hole 3" author="eXo|dragon" />
+  <map src="race-sandkinghole3.map" />
+  <settings>
+    <setting name="#time" value="23:58" />
+    <setting name="#respawn" value="timelimit" />
+    <setting name="#respawntime" value="0" />
+    <setting name="#duration" value="360" />
+  </settings>
+</meta>

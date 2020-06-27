@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<meta>
+  <script src="server.lua" type="server" />
+  <info type="map" gamemodes="race" name="[DD] Cross Boom 2" author="Crazy, GMC Edition" />
+  <map src="[DD] Cross 36.map" />
+  <settings>
+    <setting name="#time" value="22:0" />
+    <setting name="#weather" value="18" />
+    <setting name="#respawn" value="none" />
+  </settings>
+</meta>

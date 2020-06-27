@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<meta>
+  <info type="map" gamemodes="race" name="[RACE] GT TH Boom" version="1" />
+  <script src="map_server.lua" type="server" />
+  <map src="GT TH Boom.map" />
+  <settings>
+    <setting name="#time" value="20:0" />
+    <setting name="#respawn" value="timelimit" />
+    <setting name="#respawntime" value="4" />
+    <setting name="#duration" value="180" />
+    <setting name="*BarrelCount" accept="300-600" group="Gameplay" desc="The number of barrels to spawn." />
+  </settings>
+</meta>

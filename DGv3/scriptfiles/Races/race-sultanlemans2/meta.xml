@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<meta>
+  <info type="map" gamemodes="race" name="[RACE] Sultan LeMans 2" author="msd" description="sa based map" />
+  <map src="Sultan LeMans 2.map" />
+  <settings>
+    <setting name="#time" value="22:30" />
+    <setting name="#weather" value="2" />
+    <setting name="#respawn" value="timelimit" />
+    <setting name="#duration" value="240" />
+  </settings>
+</meta>

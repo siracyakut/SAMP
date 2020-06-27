@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16" ?>
+<meta>
+    <script src="client.lua" type="client" />
+    <script src="server.lua" type="server" />
+    <info gamemodes="race" type="map" name="[DD] Cross 4D" author="Puma" version="1.0.3" />
+    <map src="race-cross4ddd.map" dimension="0" />
+    <settings>
+        <setting name="#minplayers" value="[ 0 ]" />
+        <setting name="#maxplayers" value="[ 32 ]" />
+        <setting name="#gravity" value="[ 0.008000 ]" />
+        <setting name="#weather" value="[ 0 ]" />
+        <setting name="#time" value="12:0" />
+        <setting name="#locked_time" value="[ false ]" />
+        <setting name="#waveheight" value="[ 0 ]" />
+        <setting name="#gamespeed" value="[ 1 ]" />
+    </settings>
+</meta>
